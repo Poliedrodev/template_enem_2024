@@ -1711,6 +1711,30 @@
         "line-height",
         "alinhamento"
       ]
+    },  
+    {
+      "name": "dedeira",
+      "icon": "icons/components/container.svg",
+      "label": "Dedeira",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        "alinhamento"
+      ]
+    },  
+    {
+      "name": "box_flutuante",
+      "icon": "icons/components/container.svg",
+      "label": "Box Flutuante",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        "alinhamento"
+      ]
     },
     {
       "name": "container_leitura_complementar",
@@ -6463,7 +6487,8 @@
         "text-align",
         "letter-spacing",
         "style_buttom_save",
-        "line-height"
+        "line-height",
+        "dificuldade"
       ],
       "directiveOptions": {
         "number_exercicio": {
@@ -7189,7 +7214,8 @@
         "css_05_cota",
         "css_05_linha_exercicio",
         "css_05_mapa_titulo",
-        "css_05_balao_de_fala"
+        "css_05_balao_de_fala",
+        "dedeira"
       ]
     },
     {
@@ -7230,7 +7256,8 @@
         "css_06_boxe_em_producao_de_texto",
         "css_06_boxe_em_quimica",
         "css_06_boxe_em_sociologia",
-        "css_06_boxe_fique_ligado"
+        "css_06_boxe_fique_ligado",
+        "box_flutuante"
       ]
     },
     {
@@ -7420,6 +7447,51 @@
               }
             },
             "value": "rightDe"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+    {
+      "name": "dificuldade",
+      "label": {
+        "key": "Dificuldade"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Fácil"
+              }
+            },
+            "value": "facil"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Médio"
+              }
+            },
+            "value": "medio"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Difícil"
+              }
+            },
+            "value": "dificil"
           }
         ]
       },
@@ -7800,6 +7872,33 @@
               }
             },
             "value": "matematica"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "linguagens"
+              }
+            },
+            "value": "linguagens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "ciencias_natureza"
+              }
+            },
+            "value": "ciencias_natureza"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "ciencias_humanas"
+              }
+            },
+            "value": "ciencias_humanas"
           }
         ]
       },

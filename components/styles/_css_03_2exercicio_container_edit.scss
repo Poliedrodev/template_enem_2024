@@ -19,11 +19,6 @@
     .background_number {
       width: 34px;
       height: 24px;
-
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
       text-align: center;
 
 
@@ -32,7 +27,40 @@
         font-weight: 700;
         font-variant: tabular-nums;
         font-size: $fontSizeIndiceQuestion;
+        margin-bottom: -5px;
       }
+
+      hr.lv1, hr.lv2, hr.lv3{
+        content: "";
+        width: 20px;
+        height: 3px;
+        margin: 3px auto;
+        border: none;
+      }
+    }
+  }
+
+  &.facil{
+    hr.lv1{
+      background-color: #75b843;
+    }
+    hr.lv2, hr.lv3{
+      display: none;
+    }
+  }
+
+  &.medio{
+    hr.lv1, hr.lv2{
+      background-color: #fbbb21;
+    }
+    hr.lv3{
+      display: none;
+    }
+  }
+
+  &.dificil{
+    hr.lv1, hr.lv2, hr.lv3{
+      background-color: #e73439;
     }
   }
 

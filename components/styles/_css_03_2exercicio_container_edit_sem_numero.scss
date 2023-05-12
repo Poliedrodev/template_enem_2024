@@ -1,0 +1,63 @@
+.css_03_2exercicio_container_edit_sem_numero {
+  margin-top: 31px;
+
+  position: relative;
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+  
+
+  .btn_alin{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+  .btn_salvar::after {
+    color: lightgray;
+    font-family: 'nunito sans';
+    content: "Salvar";
+
+  }
+
+  .btn {
+    display: none;
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+    &:active {
+      background-image: url(img/save_ok.png) !important;
+    }
+}
+
+
+  .group_exercicio1 {
+    margin: 0 !important;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+  
+  &.lingua_inglesa {
+    .btn_salvar::after {
+      content: "Save";
+    }
+  }
+
+  &.sem_botao{
+    .btn_alin{
+      display: none;
+    }
+  }
+}

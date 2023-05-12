@@ -1,0 +1,42 @@
+.body-book {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+
+  &.artes {
+    background-color: $art_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &.lingua_inglesa {
+    background-color: $ing_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &.lingua_portuguesa {
+    background-color: $por_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &.matematica {
+    background-color: $mat_cor4;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  &.edit-mode {
+    [doc-container] {
+      padding-bottom: 24px !important;
+      border-bottom: 3px solid #cecece !important;
+    }
+    [doc-container]:empty{
+      padding-bottom: 0 !important;
+      border-bottom: 0 !important;
+    }
+  }
+}

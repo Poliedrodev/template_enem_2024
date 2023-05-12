@@ -1,0 +1,139 @@
+.css_03_2exercicio_container_edit {
+  width: 100%;
+  margin-top: 31px;
+  position: relative;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontPrincipal;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 34px;
+      height: 24px;
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+
+      .number_exercicio {
+        font-family: $font-montserrat;
+        font-weight: 700;
+        font-variant: tabular-nums;
+        font-size: $fontSizeIndiceQuestion;
+      }
+    }
+  }
+
+  .group_exercicio1 {
+    margin: 0;
+
+    :first-child {
+      margin: 0;
+    }
+  }
+
+  &.artes {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #64428C;
+        border-bottom: solid 3px #bfd730;
+      }
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #069891;
+        border-bottom: solid 3px #bfd730;
+      }
+    }
+    .btn_alin2{
+    .btn_salvar2::after{
+      content: "Save";
+    }
+  }
+  }
+ 
+  &.lingua_portuguesa {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #c9252c;
+        border-bottom: solid 3px #bfd730;
+      }
+    }
+  }
+
+  &.matematica {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #1961AC;
+        border-bottom: solid 3px #F1CB40;
+      }
+    }
+  }
+
+  .btn2 {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+    &:active {
+      background-image: url(img/save_ok.png)!important;
+    }
+  }
+
+ 
+  &.sem_botao{
+    .btn_alin2{
+      display: none;
+    }
+  }
+  .btn_alin2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+    grid-column: 2;
+
+    .btn_salvar2::after {
+      color: lightgray;
+      font-family: 'nunito sans';
+      content: "Salvar";
+    }
+   
+  }
+ 
+
+ 
+}
+
+ 

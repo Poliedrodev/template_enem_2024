@@ -1,0 +1,22 @@
+.css_01_titulo_cap {
+  display: block;
+  color: $title-color;
+  font-family: 'Barlow Condensed';
+  font-weight: 550;
+  font-size: 100px;
+  margin: 40px 0px 0px 0px;
+  padding: 0px 0px 16px 0px;
+
+  &.artes {
+    color: $art_cor1;
+  }
+  &.lingua_inglesa {
+    color: $ing_cor1;
+  }
+  &.lingua_portuguesa {
+    color: $por_cor1;
+  }
+  &.matematica {
+    color: $mat_cor1;
+  }
+}

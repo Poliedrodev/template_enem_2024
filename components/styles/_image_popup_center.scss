@@ -1,0 +1,169 @@
+/* Image component style */
+.image_popup_center {
+    clear: both;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    transition: all .3s;
+
+    &.__ready {
+        cursor: pointer;
+
+        &:before {
+            content: none;
+        }
+
+        .image_popup__content {            
+            display: none;
+        }
+
+        .image_popup__final-content {
+            display: block;
+
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: -10px;
+                left: 15px;
+                background-color: $por_cor2;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                background-image: url(img/search.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 60%;
+                z-index: 9;
+            }
+
+            &.artes {
+                &:before {
+                background-color: $art_cor2;
+                }
+            }
+            &.lingua_inglesa {
+                &:before {
+                    background-color: $ing_cor2;
+                }
+            }
+            &.lingua_portuguesa {
+                &:before {
+                    background-color: $por_cor2;
+                }
+            }
+            &.matematica {
+                &:before {
+                    background-color: $mat_cor2;
+                }
+            }
+
+            .thumb-popup-img {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }    
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 31px;
+        left: 15px;
+        background-color: $por_cor2;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-image: url(img/search.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60%;
+        z-index: 9;
+    }
+    
+    &.artes {
+        &:before {
+        background-color: $art_cor2;
+        }
+    }
+    &.lingua_inglesa {
+        &:before {
+            background-color: $ing_cor2;
+        }
+    }
+    &.lingua_portuguesa {
+        &:before {
+            background-color: $por_cor2;
+        }
+    }
+    &.matematica {
+        &:before {
+            background-color: $mat_cor2;
+        }
+    }
+
+    .image_popup__content {        
+        .image_popup__img {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background-size: cover;      
+        }
+
+        .image_popup__text {
+            font-family: 'Montserrat';
+            font-weight: 300;
+            color: $textColor;
+            font-size: 14px;
+            padding: 15px 0px 10px 0px;
+        }
+    }
+
+    @media only screen and (min-width: $phone-max-width) {
+        /* class styles for the position properties of the image component */
+        &._left {
+            float: left;
+            clear: left;
+            width: calc(50% - 24px);
+            margin-right: 24px;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            margin-left: 24px;
+            z-index: 1;
+        }
+    }
+
+    .image_popup__final-content {
+        display: none;
+    }
+
+    &.artes {
+        &:before {
+        background-color: $art_cor2;
+        }
+    }
+    &.lingua_inglesa {
+        &:before {
+            background-color: $ing_cor2;
+        }
+    }
+    &.lingua_portuguesa {
+        &:before {
+            background-color: $por_cor2;
+        }
+    }
+    &.matematica {
+        &:before {
+            background-color: $mat_cor2;
+        }
+    }
+}

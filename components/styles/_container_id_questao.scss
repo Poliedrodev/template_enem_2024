@@ -1,0 +1,68 @@
+/* Container component style*/
+.container_id_questao {
+  margin: 8px 0px 0px 0px !important;
+  padding-top: 16px;
+  clear: both;
+  .btn2 {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+    &:active {
+      background-image: url(img/save_ok.png)!important;
+    }
+  }
+
+
+  .btn2 {
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
+    &:active {
+      background-image: url(img/save_ok.png)!important;
+    }
+  }
+
+
+  .btn_alin2 {
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    display: flex !important;
+    width: 100%;
+    grid-column: 2;
+  }
+
+  .btn_salvar2::after {
+    color: lightgray;
+    font-family: 'nunito sans';
+    content: "Salvar";
+  }
+
+  &.sem_botao{
+    .btn_alin2{
+      display: none !important;
+    }
+  }
+
+  &.lingua_inglesa {
+    .btn_salvar2::after {
+      content: "Save";
+    }
+  }
+
+}

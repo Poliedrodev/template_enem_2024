@@ -1,0 +1,22 @@
+.css_01_titulo_unid{
+    display: block;
+    color: $title-color;
+    font-size: 100px;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 16px 0px;
+
+    &.artes {
+      color: $art_cor1;
+    }
+    &.lingua_inglesa {
+      color: $ing_cor1;
+    }
+    &.lingua_portuguesa {
+      color: $por_cor1;
+    }
+    &.matematica {
+      color: $mat_cor1;
+    }
+}

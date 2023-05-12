@@ -1,0 +1,79 @@
+.container_questao_soma{
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 16px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 200px;
+  .soma_input{
+    opacity: 1;
+      height: 30px;
+      width: 30px;
+      margin: 0 50px;
+      position: relative;
+      background: #f4f1f1;     
+      border: 1px solid black; 
+      border-radius: 6px;
+  }
+  
+}   
+ 
+
+
+.num{
+  font-family: 'Noticia Text';
+  max-width: 300px;
+  max-height: 30px;
+  resize: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 0px 0px 0px 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-color: lightgray;
+}
+  
+.btn {
+  background-image: url(img/save.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        border: 0px;
+        height: 30px;
+        width: 30px;
+        float: right;
+        margin-right: -4px;
+        display: block;
+        margin-top: 6px;
+
+        
+  }
+    .btn:active {
+        background-image: url(img/save_ok.png);
+    }
+
+  
+  
+
+  
+
+.soma_palavra  {
+  position: relative;
+  &::after {
+    font-family: $fontPrincipal;
+    font-size: 18px;
+    font-weight: 600;
+    content: "Soma:";
+    position: absolute;
+    left: -5px;
+    top: 0;
+
+  }
+}
+

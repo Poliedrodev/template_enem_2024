@@ -1,6 +1,6 @@
 /* Author component style */
 .secao_extra_practice {
-  height: 50px;
+  height: 48px;
   width: 94%;
   margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
@@ -8,14 +8,28 @@
   align-items: center;
   position: relative;
   justify-content: space-between;
-  background-color: #edf8f7;
+  background-color: $ing_cor1;
 
   h2{
     font-family: 'Barlow Condensed';
     font-weight: 700;
-    font-size: 30px;
-    color: $ing_cor2;
+    font-size: 1.8rem;
+    color: $teoria;
   }
+
+  .arrow-ponta {
+    border: 1px solid $ing_cor1;
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    background-color: $ing_cor1;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -17px;
+  }
+
 }
 
 .icone_disciplina_ing_extra {
@@ -41,18 +55,7 @@
   z-index: 2;
 }
 
-.arrow-ponta {
-  border: #edf8f7;
-  width: 35.7px;
-  height: 35.5px;
-  position: absolute;
-  background: #edf8f7;
-  display: inline-block;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  align-items: center;
-  right: -18px;
-}
+
 
 .secao_extra_practice_teste>div {
   display: flex;
@@ -68,7 +71,7 @@ a {
 }
 
 .vejamais {
-  font-size: 10px;
+  font-size: 0.6rem;
   font-family: 'Montserrat';
   text-align: right;
   color: #9a9898;
@@ -86,6 +89,6 @@ a {
 
 @media only screen and (max-width: $phone-max-width) {
   .secao_extra_practice h2{
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }

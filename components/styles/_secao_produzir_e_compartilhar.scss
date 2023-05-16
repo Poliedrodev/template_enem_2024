@@ -1,6 +1,6 @@
 /* Author component style */
 .secao_produzir_e_compartilhar {
-  height: 50px;
+  height: 48px;
   width: 94%;
   margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
@@ -13,7 +13,7 @@
   h2{
     font-family: 'Barlow Condensed';
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.8rem;
   }
 
   .icone_disciplina {
@@ -53,15 +53,15 @@
 
     .arrow-ponta {
       border: #f4f2f7;
-      width: 35.7px;
-      height: 35.5px;
+      width: 34px;
+      height: 34px;
       position: absolute;
       background: #f4f2f7;
       display: inline-block;
       transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg);
       align-items: center;
-      right: -18px;
+      right: -17px;
     }
   }
 
@@ -94,15 +94,15 @@
 
     .arrow-ponta {
       border: #edf8f7;
-      width: 35.7px;
-      height: 35.5px;
+      width: 34px;
+      height: 34px;
       position: absolute;
       background: #edf8f7;
       display: inline-block;
       transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg);
       align-items: center;
-      right: -18px;
+      right: -17px;
     }
   }
 
@@ -136,15 +136,15 @@
 
     .arrow-ponta {
       border: #fbf0f0;
-      width: 35.7px;
-      height: 35.5px;
+      width: 34px;
+      height: 34px;
       position: absolute;
       background: #fbf0f0;
       display: inline-block;
       transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg);
       align-items: center;
-      right: -18px;
+      right: -17px;
     }
 
   }
@@ -184,15 +184,159 @@
     }
 
     .arrow-ponta {
-      width: 35.7px;
-      height: 35.5px;
+      width: 34px;
+      height: 34px;
       position: absolute;
       background: #eef4fa;
       display: inline-block;
       transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg);
       align-items: center;
-      right: -18px;
+      right: -17px;
+    }
+
+  }
+
+  &.linguagens .secao_produzir_e_compartilhar {
+    color: $ling_cor1;
+    background-color: $seg_lin_cor5;
+
+    .icone_disciplina {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
+      width: 50px;
+      height: 50px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -20px;
+      top: -1px;
+    }
+
+    .arrow-right {
+
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 20px solid $seg_lin_cor5;
+    }
+
+    .arrow-menor {
+      border: 1px solid $ling_cor1;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 4.1px;
+      transform: rotate(-45deg);
+      z-index: 2;
+    }
+
+    .arrow-ponta {
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      background: $seg_lin_cor5;
+      display: inline-block;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      align-items: center;
+      right: -17px;
+    }
+
+  }
+
+  &.ciencias_natureza .secao_produzir_e_compartilhar {
+    color: $cnz_cor1;
+    background-color: $seg_cnz_cor1;
+
+    .icone_disciplina {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
+      width: 50px;
+      height: 50px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -20px;
+      top: -1px;
+    }
+
+    .arrow-right {
+
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 20px solid $seg_cnz_cor1;
+    }
+
+    .arrow-menor {
+      border: 1px solid $cnz_cor1;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 4.1px;
+      transform: rotate(-45deg);
+      z-index: 2;
+    }
+
+    .arrow-ponta {
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      background: $seg_cnz_cor1;
+      display: inline-block;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      align-items: center;
+      right: -17px;
+    }
+
+  }
+
+  &.ciencias_humanas .secao_produzir_e_compartilhar {
+    color: $cnh_cor2;
+    background-color: $seg_cnh_cor1;
+
+    .icone_disciplina {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
+      width: 50px;
+      height: 50px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -20px;
+      top: -1px;
+    }
+
+    .arrow-right {
+
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 20px solid $seg_cnh_cor1;
+    }
+
+    .arrow-menor {
+      border: 1px solid $cnh_cor2;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 4.1px;
+      transform: rotate(-45deg);
+      z-index: 2;
+    }
+
+    .arrow-ponta {
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      background: $seg_cnh_cor1;
+      display: inline-block;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      align-items: center;
+      right: -17px;
     }
 
   }
@@ -212,7 +356,7 @@ a {
 }
 
 .vejamais {
-  font-size: 10px;
+  font-size: 0.6rem;
   font-family: 'Montserrat';
   text-align: right;
   color: #9a9898;
@@ -230,6 +374,6 @@ a {
 
 @media only screen and (max-width: $phone-max-width) {
   .secao_produzir_e_compartilhar h2{
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }

@@ -7,11 +7,13 @@
       content: '';
       display: block;
       clear: both;
+      border-bottom: 2px solid $por_cor2;
+      margin-top: 16px;
   }
 
   .text-read2{
     //border: solid 2px #981711; 
-    font-size: 16px;
+    font-size: 1rem;
     border-bottom: solid 3px #f2b8bc;
     color: #981711;
     width: 235px;
@@ -53,41 +55,119 @@
           }
       }
   }
-  
-
-  // .box_green{
-  //   width: 93.5%;
-  //   height: 23px;
-  //   position: relative;
-  //   display: flex;
-  //   top: 18px;
-  //   left: 16px;
-  //   padding: 1px 0px 0px 0px;
-  //   margin: 0px 0px 32px 0px;
-  //   border-bottom: solid 2px #000000;
-  //   border-left: solid 6px #999999;
-  //   text-decoration: overline;
-  //   font-family: $font-montserrat-extrabold;
-  //   font-size: 16px;
-  //   color: #000000;
-    
-  //   &:before {
-  //     content: '';
-  //     display: block;
-  //   }
-  // }
 
   &.artes {
     border: solid 2px $art_cor1 !important;
   }
   &.lingua_inglesa {
-    border: solid 2px $ing_cor1 !important;
+    &::after {
+        border-top: 2px solid $ing_cor3;
+        border-bottom: 2px solid $ing_cor1;
+    }
+    .line3{
+        background-color: $ing_cor1;
+        border-top: 3px solid $ing_cor3;
+    }
+    .text-read2{
+        background-color: $seg_ing_cor1;
+        border-bottom: none;
+        color: $ing_cor1;
+        &::after {
+            border-top: 2px solid $ing_cor3;
+        }
+    }
   }
   &.lingua_portuguesa {
-    border: solid 2px $por_cor1 !important;
+    &::after {
+        border-top: 2px solid $por_cor3;
+    }
+    .line3{
+        background-color: $por_cor2;
+        border-top: 3px solid $por_cor3;
+    }
+    .text-read2{
+        background-color: $seg_lin_cor3;
+        border-bottom: none;
+        &::after {
+            border-top: 2px solid $por_cor3;
+        }
+    }
   }
+
   &.matematica {
-    border: solid 2px $mat_cor1 !important;
+    &::after {
+        border-top: 2px solid $mat_cor3;
+        border-bottom: 2px solid $mat_cor1;
+    }
+    .line3{
+        background-color: $mat_cor1;
+        border-top: 3px solid $mat_cor3;
+    }
+    .text-read2{
+        background-color: $seg_mat_cor3;
+        border-bottom: none;
+        color: $mat_cor1;
+        &::after {
+            border-top: 2px solid $mat_cor3;
+        }
+    }
+  }
+
+  &.linguagens {
+    &::after {
+        border-top: 2px solid $seg_lin_cor5;
+        border-bottom: 2px solid $ling_cor1;
+    }
+    .line3{
+        background-color: $ling_cor1;
+        border-top: 3px solid $seg_lin_cor5;
+    }
+    .text-read2{
+        background-color: $seg_ing_cor1;
+        border-bottom: none;
+        color: $ling_cor1;
+        &::after {
+            border-top: 2px solid $seg_lin_cor5;
+        }
+    }
+  }
+
+  &.ciencias_natureza {
+    &::after {
+        border-top: 2px solid $seg_cnz_cor3;
+        border-bottom: 2px solid $cnz_cor1;
+    }
+    .line3{
+        background-color: $cnz_cor1;
+        border-top: 3px solid $seg_cnz_cor3;
+    }
+    .text-read2{
+        background-color: $seg_cnz_cor2;
+        border-bottom: none;
+        color: $cnz_cor1;
+        &::after {
+            border-top: 2px solid $seg_cnz_cor3;
+        }
+    }
+  }
+
+  &.ciencias_humanas {
+    &::after {
+        border-top: 2px solid $seg_cnh_cor1;
+        border-bottom: 2px solid $cnh_cor1;
+    }
+    .line3{
+        background-color: $cnh_cor1;
+        border-top: 3px solid $seg_cnh_cor1;
+    }
+    .text-read2{
+        background-color: $seg_cnh_cor2;
+        border-bottom: none;
+        color: $cnh_cor1;
+        &::after {
+            border-top: 2px solid $seg_cnh_cor1;
+        }
+    }
   }
 
   /* media query */

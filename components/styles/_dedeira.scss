@@ -19,16 +19,21 @@
   }
 
   .text-read2{
-    font-size: 18px;
+    font-size: 1.1rem;
     color: $textColor;
     width: 235px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     font-family: montserrat;
     font-weight: 700;
     background-color: #f4f4f4;
     border: 1px solid #dddddd;
     border-radius: 8px;
+    &::after {
+      content: 'PADRÃO';
+      display: block;
+      clear: both;
+  }
   }
   > * {
       &:first-child {
@@ -67,6 +72,11 @@
         background-color: $ing_cor1;
         border: 1px solid $ing_cor1;
         color: $teoria;
+        &::after {
+          content: 'LÍNGUA INGLESA';
+          display: block;
+          clear: both;
+      }
     }
   }
   &.lingua_portuguesa {
@@ -74,6 +84,11 @@
         background-color: $por_cor1;
         border: 1px solid $por_cor1;
         color: $teoria;
+        &::after {
+          content: 'LÍNGUA PORTUGUESA';
+          display: block;
+          clear: both;
+      }
     }
   }
   &.matematica {
@@ -81,6 +96,11 @@
         background-color: $mat_cor1;
         border: 1px solid $mat_cor1;
         color: $teoria;
+        &::after {
+          content: 'MATEMÁTICA';
+          display: block;
+          clear: both;
+      }
     }
   }
   &.linguagens {
@@ -88,6 +108,11 @@
         background-color: $ling_cor1;
         border: 1px solid $ling_cor1;
         color: $teoria;
+        &::after {
+          content: 'LINGUAGENS';
+          display: block;
+          clear: both;
+      }
     }
   }
   &.ciencias_natureza {
@@ -95,6 +120,11 @@
         background-color: $cnz_cor1;
         border: 1px solid $cnz_cor1;
         color: $teoria;
+        &::after {
+          content: 'CIÊNCIAS NATUREZA';
+          display: block;
+          clear: both;
+      }
     }
   }
   &.ciencias_humanas {
@@ -102,6 +132,11 @@
         background-color: $cnh_cor1;
         border: 1px solid $cnh_cor1;
         color: $teoria;
+        &::after {
+          content: 'CIÊNCIAS HUMANAS';
+          display: block;
+          clear: both;
+      }
     }
   }
 

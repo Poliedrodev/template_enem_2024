@@ -712,6 +712,17 @@
       ]
     },
     {
+      "name": "secao_quiz",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Seção Quiz",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "secao_topo_para_aprofundar",
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Para Aprofundar",
@@ -6996,6 +7007,7 @@
         "secao_topo_para_aprofundar",
         "secao_topo_para_consolidar",
         "secao_topo_produzir_e_compartilhar",
+        "secao_quiz",
         "secao_topo_quiz",
         "botao_voltar",
         "botao_avancar",
@@ -7035,6 +7047,7 @@
         "secao_topo_find_out_more",
         "secao_topo_extra_practice",
         "secao_topo_quiz",
+        "secao_quiz",
         "container_questao_dissertativa_ing",
         "container_questao_dissertativa_semrecuo_ing",
         "container_questao_dissertativa_item_ing",

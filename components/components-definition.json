@@ -7026,7 +7026,8 @@
         "container_questao_total",
         "quebra_pagina",
         "primeira_pagina",
-        "marcador_pagina"
+        "marcador_pagina",
+        "container_connections"
       ]
     },
     {

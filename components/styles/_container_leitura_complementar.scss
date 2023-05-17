@@ -79,7 +79,8 @@
   }
   &.lingua_portuguesa {
     &::after {
-        border-top: 2px solid $por_cor3;
+        border-top: 3px solid $por_cor3;
+        border-bottom: 2px solid $por_cor2;
     }
     .line3{
         background-color: $por_cor2;
@@ -96,7 +97,7 @@
 
   &.matematica {
     &::after {
-        border-top: 2px solid $mat_cor3;
+        border-top: 3px solid $mat_cor3;
         border-bottom: 2px solid $mat_cor1;
     }
     .line3{
@@ -115,7 +116,7 @@
 
   &.linguagens {
     &::after {
-        border-top: 2px solid $seg_lin_cor5;
+        border-top: 3px solid $seg_lin_cor5;
         border-bottom: 2px solid $ling_cor1;
     }
     .line3{
@@ -134,7 +135,7 @@
 
   &.ciencias_natureza {
     &::after {
-        border-top: 2px solid $seg_cnz_cor3;
+        border-top: 3px solid $seg_cnz_cor3;
         border-bottom: 2px solid $cnz_cor1;
     }
     .line3{
@@ -153,7 +154,7 @@
 
   &.ciencias_humanas {
     &::after {
-        border-top: 2px solid $seg_cnh_cor1;
+        border-top: 3px solid $seg_cnh_cor1;
         border-bottom: 2px solid $cnh_cor1;
     }
     .line3{

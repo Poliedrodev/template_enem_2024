@@ -1,21 +1,20 @@
 .container_exercicios {
   padding: 24px;
   margin-top: 48px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px 1px #ddd;
   clear: both;
   display: block;
   &::after {
       content: '';
       display: block;
       clear: both;
+      border-bottom: 2px solid $seg_ing_cor3;
   }
 
   .text-read1{
     border: solid 2px #C8D300;
     border-bottom: none;
     border-left: solid 4px #84A214;
-    font-size: 16px;
+    font-size: 1rem;
     color: #84A214;
     width: 120px;
     text-align: center;
@@ -25,6 +24,9 @@
     background-color: #ECF0A6;
     position: relative;
     text-transform: uppercase;
+    &::after {
+      content: 'PADRÃO';
+    }
   }
   .line2{
     position: relative;
@@ -44,29 +46,117 @@
     
   }
   &.lingua_inglesa {
+    &::after {
+      border-bottom: 2px solid $seg_ing_cor3;
+    }
     .text-read1{
-      border: solid 2px #C8D300;
+      border: solid 2px $seg_ing_cor3;
       border-bottom: none;
-      border-left: solid 4px #84A214;
+      border-left: solid 8px $seg_ing_cor3;
+      color: $seg_ing_cor3;
+      border-right: none;
+      background-color: $seg_ing_cor2;
+      &::after {
+          content: 'EXERCISES';
+      }
+    }
+    .line2{
+      background-color: $seg_ing_cor3;
     }
   }
   &.lingua_portuguesa {
+    &::after {
+      border-bottom: 2px solid $seg_ing_cor3;
+    }
     .text-read1{
-      border: solid 2px #C8D300;
+      border: solid 2px $seg_ing_cor3;
       border-bottom: none;
-      border-left: solid 4px #84A214;
+      border-left: solid 8px $seg_ing_cor3;
+      color: $seg_ing_cor3;
+      border-right: none;
+      background-color: $seg_ing_cor2;
+      &::after {
+          content: 'EXERCÍCIOS';
+      }
+    }
+    .line2{
+      background-color: $seg_ing_cor3;
     }
   }
   &.matematica {
+    &::after {
+      border-bottom: 2px solid $seg_mat_cor2;
+    }
     .text-read1{
-      border: solid 2px #F1CB40;
+      border: solid 2px $seg_mat_cor2;
       border-bottom: none;
-      border-left: solid 4px #C09100;
-      color: #C09100;
-      background-color: #FAEDBC;
+      border-left: solid 8px $seg_mat_cor2;
+      color: $seg_mat_cor2;
+      border-right: none;
+      background-color: $seg_mat_cor5;
+      &::after {
+          content: 'EXERCÍCIOS';
+      }
     }
     .line2{
-      background-color: #F1CB40;
+      background-color: $seg_mat_cor2;
+    }
+  }
+  &.linguagens {
+    &::after {
+      border-bottom: 2px solid $seg_ing_cor3;
+    }  
+    .text-read1{
+      border: solid 2px $seg_ing_cor3;
+      border-bottom: none;
+      border-left: solid 8px $seg_ing_cor3;
+      color: $seg_ing_cor3;
+      border-right: none;
+      background-color: $seg_ing_cor2;
+      &::after {
+          content: 'EXERCÍCIOS';
+      }
+    }
+    .line2{
+      background-color: $seg_ing_cor3;
+    }
+  }
+  &.ciencias_natureza {
+    &::after {
+      border-bottom: 2px solid $cnz_cor4;
+    }
+    .text-read1{
+      border: solid 2px $cnz_cor4;
+      border-bottom: none;
+      border-left: solid 8px $cnz_cor4;
+      color: $cnz_cor4;
+      border-right: none;
+      background-color: $seg_cnz_cor4;
+      &::after {
+          content: 'EXERCÍCIOS';
+      }
+    }
+    .line2{
+      background-color: $cnz_cor4;
+    }
+  }
+  &.ciencias_humanas {
+    &::after {
+      border-bottom: 2px solid $cnh_cor4;
+    }
+    .text-read1{
+      border: solid 2px $cnh_cor4;
+      border-bottom: none;
+      border-left: solid 8px $cnh_cor4;
+      color: $cnh_cor4;
+      border-right: none;
+      background-color: $seg_cnh_cor2;
+      &::after {
+          content: 'EXERCÍCIOS';
+      }
+    }
+    .line2{
+      background-color: $cnh_cor4;
     }
   }
   > * {

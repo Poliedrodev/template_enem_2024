@@ -1,30 +1,47 @@
 .container_matema_tec {
-  border: 2px solid $por_cor2;
   padding: 24px;
   margin-top: 48px;
   border-radius: 5px;
   display: block;
+  position: relative;
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid $mat_cor3;
+    margin-top: 16px;
+  }
 
-  .text-read{
-    border-top: solid 2px $mat_cor2;
-    border-left: solid 6px $mat_cor3;
-    font-size: 16px;
+  .text-read {
+    border-top: solid 2px $mat_cor3;
+    border-left: solid 6px $mat_cor2;
+    font-size: 1rem;
     border-bottom: none;
-    color: $por_cor2;
+    color: $mat_cor2;
     width: 117px;
     text-align: center;
-    padding: 3px 0px 3px 6px;
+    padding: 3px 8px 3px 6px;
     font-family: montserrat;
     font-weight: 700;
+    background-color: $mat_cor4;
   }
-  .line1{
+  .line1 {
     width: 100%;
     height: 2px;
-    background-color: $mat_cor2;
+    background-color: $mat_cor3;
+  }
+
+  .lines {
+    margin-bottom: 0;
+    border: 3px solid $mat_cor2;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
   }
 
   &.artes {
-      border: 2px solid $art_cor2;
       .text-read{
           border-top: solid 2px $art_cor2;
           border-left: solid 6px $art_cor3;
@@ -35,7 +52,6 @@
       }
   }
   &.lingua_inglesa {
-      border: 2px solid $ing_cor2;
       .text-read{
           border-top: solid 2px $ing_cor2;
           border-left: solid 6px $ing_cor3;
@@ -46,7 +62,6 @@
       }
   }
   &.lingua_portuguesa {
-      border: 2px solid $por_cor2;
       .text-read{
           border-top: solid 2px $por_cor2;
           border-left: solid 6px $por_cor3;
@@ -57,14 +72,19 @@
       }
   }
   &.matematica {
-      border: 2px solid $mat_cor2;
+      &::after {
+        border-bottom: 2px solid $mat_cor3;
+      }
       .text-read{
-          border-top: solid 2px $mat_cor2;
-          border-left: solid 6px $mat_cor3;
+          border-top: solid 2px $mat_cor3;
+          border-left: solid 6px $mat_cor2;
           color: $mat_cor2;
       }
       .line1{
-          background-color: $mat_cor2;
+          background-color: $mat_cor3;
+      }
+      .lines{
+        border: 3px solid $mat_cor2;
       }
   }
 

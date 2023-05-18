@@ -1,32 +1,31 @@
-.container_connections {
+.container_em_analise {
   padding: 8px 16px 16px 16px;
   margin-top: 48px;
   clear: both;
   display: block;
   &::after {
-    content: '';
-    display: block;
-    clear: both;
-    border-top: 2px solid $ing_cor3;
-    border-bottom: 2px solid $ing_cor1;
-    margin-top: 16px;
+      content: '';
+      display: block;
+      clear: both;
+      border-bottom: 2px solid $por_cor2;
+      margin-top: 16px;
   }
 
   .text-read2{
-    font-size: 1.2rem;
-    color: $ing_cor1;
+    //border: solid 2px #981711; 
+    font-size: 1rem;
+    border-bottom: solid 3px #f2b8bc;
+    color: #981711;
     width: 235px;
     text-align: center;
     padding: 3px;
     font-family: montserrat;
     font-weight: 700;
-    background-color: $seg_ing_cor1;
   }
   .line3{
     width: 100%;
     height: 2px;
-    background-color: $ing_cor1;
-    border-top: 3px solid $ing_cor3;
+    background-color: #981711;
   }
   > * {
       &:first-child {
@@ -58,46 +57,12 @@
   }
 
   &.artes {
-    .box_green{
-        background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
-        border: solid 3px #64428C;
-
-    }
-  }
-  &.biologia {
-    .box_green{
-        background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
-        border: solid 3px #45973d;
-    }
-  }
-  &.filosofia {
-    .box_green{
-        background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
-        border: solid 3px #536DA7;
-    }
-  }
-  &.fisica {
-    .box_green{
-        background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
-        border: solid 3px #00909B;
-    }
-  }
-  &.geografia {
-    .box_green{
-        background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
-        border: solid 3px #D85509;
-    }
-  }
-  &.historia {
-    .box_green{
-        background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
-        border: solid 3px #951B81;
-    }
+    border: solid 2px $art_cor1 !important;
   }
   &.lingua_inglesa {
     &::after {
-      border-top: 2px solid $ing_cor3;
-      border-bottom: 2px solid $ing_cor1;
+        border-top: 2px solid $ing_cor3;
+        border-bottom: 2px solid $ing_cor1;
     }
     .line3{
         background-color: $ing_cor1;
@@ -108,14 +73,14 @@
         border-bottom: none;
         color: $ing_cor1;
         &::after {
-          content: 'CONNECTIONS';
+            border-top: 2px solid $ing_cor3;
         }
     }
   }
   &.lingua_portuguesa {
     &::after {
-      border-top: 3px solid $por_cor3;
-      border-bottom: 2px solid $por_cor2;
+        border-top: 3px solid $por_cor3;
+        border-bottom: 2px solid $por_cor2;
     }
     .line3{
         background-color: $por_cor2;
@@ -124,12 +89,12 @@
     .text-read2{
         background-color: $seg_lin_cor3;
         border-bottom: none;
-        color: $por_cor2;
         &::after {
-          content: 'CONEXÕES';
+            border-top: 2px solid $por_cor3;
         }
     }
   }
+
   &.matematica {
     &::after {
         border-top: 3px solid $mat_cor3;
@@ -144,10 +109,11 @@
         border-bottom: none;
         color: $mat_cor1;
         &::after {
-          content: 'CONEXÕES';
+            border-top: 2px solid $mat_cor3;
         }
     }
   }
+
   &.linguagens {
     &::after {
         border-top: 3px solid $seg_lin_cor5;
@@ -162,10 +128,11 @@
         border-bottom: none;
         color: $ling_cor1;
         &::after {
-          content: 'CONEXÕES';
+            border-top: 2px solid $seg_lin_cor5;
         }
     }
   }
+
   &.ciencias_natureza {
     &::after {
         border-top: 3px solid $seg_cnz_cor3;
@@ -180,11 +147,11 @@
         border-bottom: none;
         color: $cnz_cor1;
         &::after {
-          content: 'CONEXÕES';
+            border-top: 2px solid $seg_cnz_cor3;
         }
     }
   }
-  
+
   &.ciencias_humanas {
     &::after {
         border-top: 3px solid $seg_cnh_cor1;
@@ -199,26 +166,8 @@
         border-bottom: none;
         color: $cnh_cor1;
         &::after {
-          content: 'CONEXÕES';
+            border-top: 2px solid $seg_cnh_cor1;
         }
-    }
-  }
-  &.producao_de_texto {
-    .box_green{
-        background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
-        border: solid 3px #0F83A6;
-    }
-  }
-  &.quimica {
-    .box_green{
-        background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
-        border: solid 3px #B80071;
-    }
-  }
-  &.sociologia {
-    .box_green{
-        background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
-        border: solid 3px #C71553;
     }
   }
 

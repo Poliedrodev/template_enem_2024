@@ -7487,6 +7487,268 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_em_analise {
+  padding: 8px 16px 16px 16px;
+  margin-top: 48px;
+  clear: both;
+  display: block;
+  /* media query */ }
+  .container_em_analise::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #96171a;
+    margin-top: 16px; }
+  .container_em_analise .text-read2 {
+    font-size: 1rem;
+    border-bottom: solid 3px #f2b8bc;
+    color: #981711;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_em_analise .line3 {
+    width: 100%;
+    height: 2px;
+    background-color: #981711; }
+  .container_em_analise > *:first-child {
+    margin-top: 0; }
+    .container_em_analise > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_em_analise > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_em_analise > *:last-child {
+    margin-bottom: 0; }
+  .container_em_analise > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_em_analise > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .container_em_analise.artes {
+    border: solid 2px #64428C !important; }
+  .container_em_analise.lingua_inglesa::after {
+    border-top: 2px solid #8CCDD2;
+    border-bottom: 2px solid #069891; }
+  .container_em_analise.lingua_inglesa .line3 {
+    background-color: #069891;
+    border-top: 3px solid #8CCDD2; }
+  .container_em_analise.lingua_inglesa .text-read2 {
+    background-color: #e2ecb8;
+    border-bottom: none;
+    color: #069891; }
+    .container_em_analise.lingua_inglesa .text-read2::after {
+      border-top: 2px solid #8CCDD2; }
+  .container_em_analise.lingua_portuguesa::after {
+    border-top: 3px solid #E59798;
+    border-bottom: 2px solid #96171a; }
+  .container_em_analise.lingua_portuguesa .line3 {
+    background-color: #96171a;
+    border-top: 3px solid #E59798; }
+  .container_em_analise.lingua_portuguesa .text-read2 {
+    background-color: #ECF0A6;
+    border-bottom: none; }
+    .container_em_analise.lingua_portuguesa .text-read2::after {
+      border-top: 2px solid #E59798; }
+  .container_em_analise.matematica::after {
+    border-top: 3px solid #97B7D9;
+    border-bottom: 2px solid #1961AC; }
+  .container_em_analise.matematica .line3 {
+    background-color: #1961AC;
+    border-top: 3px solid #97B7D9; }
+  .container_em_analise.matematica .text-read2 {
+    background-color: #FAEDBC;
+    border-bottom: none;
+    color: #1961AC; }
+    .container_em_analise.matematica .text-read2::after {
+      border-top: 2px solid #97B7D9; }
+  .container_em_analise.linguagens::after {
+    border-top: 3px solid #dad6e8;
+    border-bottom: 2px solid #5f4893; }
+  .container_em_analise.linguagens .line3 {
+    background-color: #5f4893;
+    border-top: 3px solid #dad6e8; }
+  .container_em_analise.linguagens .text-read2 {
+    background-color: #e2ecb8;
+    border-bottom: none;
+    color: #5f4893; }
+    .container_em_analise.linguagens .text-read2::after {
+      border-top: 2px solid #dad6e8; }
+  .container_em_analise.ciencias_natureza::after {
+    border-top: 3px solid #bed8bb;
+    border-bottom: 2px solid #3d9a48; }
+  .container_em_analise.ciencias_natureza .line3 {
+    background-color: #3d9a48;
+    border-top: 3px solid #bed8bb; }
+  .container_em_analise.ciencias_natureza .text-read2 {
+    background-color: #feddb9;
+    border-bottom: none;
+    color: #3d9a48; }
+    .container_em_analise.ciencias_natureza .text-read2::after {
+      border-top: 2px solid #bed8bb; }
+  .container_em_analise.ciencias_humanas::after {
+    border-top: 3px solid #f9dfce;
+    border-bottom: 2px solid #db5c1e; }
+  .container_em_analise.ciencias_humanas .line3 {
+    background-color: #db5c1e;
+    border-top: 3px solid #f9dfce; }
+  .container_em_analise.ciencias_humanas .text-read2 {
+    background-color: #d1eadf;
+    border-bottom: none;
+    color: #db5c1e; }
+    .container_em_analise.ciencias_humanas .text-read2::after {
+      border-top: 2px solid #f9dfce; }
+  @media only screen and (min-width: 481px) {
+    .container_em_analise._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_em_analise._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.questao_resolvida {
+  padding: 24px;
+  margin-top: 48px;
+  clear: both;
+  display: block;
+  /* media query */ }
+  .questao_resolvida::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #94aa24; }
+  .questao_resolvida .text-read1 {
+    border: solid 2px #C8D300;
+    border-bottom: none;
+    border-left: solid 8px #84A214;
+    font-size: 1rem;
+    color: #84A214;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #ECF0A6;
+    position: relative;
+    text-transform: uppercase; }
+    .questao_resolvida .text-read1::after {
+      content: 'PADRÃO'; }
+  .questao_resolvida .line2 {
+    position: relative;
+    top: -2px;
+    width: 100%;
+    height: 2px;
+    z-index: 1;
+    background-color: #C8D300; }
+  .questao_resolvida.artes .text-read1 {
+    border: solid 2px #C8D300;
+    border-bottom: none;
+    border-left: solid 4px #84A214; }
+  .questao_resolvida.lingua_inglesa::after {
+    border-bottom: 2px solid #94aa24; }
+  .questao_resolvida.lingua_inglesa .text-read1 {
+    border: solid 2px #94aa24;
+    border-bottom: none;
+    border-left: solid 8px #94aa24;
+    color: #94aa24;
+    border-right: none;
+    background-color: #f4f8e8; }
+    .questao_resolvida.lingua_inglesa .text-read1::after {
+      content: 'RESOLVED QUESTION'; }
+  .questao_resolvida.lingua_inglesa .line2 {
+    background-color: #94aa24; }
+  .questao_resolvida.lingua_portuguesa::after {
+    border-bottom: 2px solid #94aa24; }
+  .questao_resolvida.lingua_portuguesa .text-read1 {
+    border: solid 2px #94aa24;
+    border-bottom: none;
+    border-left: solid 8px #94aa24;
+    color: #94aa24;
+    border-right: none;
+    background-color: #f4f8e8; }
+    .questao_resolvida.lingua_portuguesa .text-read1::after {
+      content: 'QUESTÃO RESOLVIDA'; }
+  .questao_resolvida.lingua_portuguesa .line2 {
+    background-color: #94aa24; }
+  .questao_resolvida.matematica::after {
+    border-bottom: 2px solid #C09100; }
+  .questao_resolvida.matematica .text-read1 {
+    border: solid 2px #C09100;
+    border-bottom: none;
+    border-left: solid 8px #C09100;
+    color: #C09100;
+    border-right: none;
+    background-color: #fdf4e3; }
+    .questao_resolvida.matematica .text-read1::after {
+      content: 'QUESTÃO RESOLVIDA'; }
+  .questao_resolvida.matematica .line2 {
+    background-color: #C09100; }
+  .questao_resolvida.linguagens::after {
+    border-bottom: 2px solid #94aa24; }
+  .questao_resolvida.linguagens .text-read1 {
+    border: solid 2px #94aa24;
+    border-bottom: none;
+    border-left: solid 8px #94aa24;
+    color: #94aa24;
+    border-right: none;
+    background-color: #f4f8e8; }
+    .questao_resolvida.linguagens .text-read1::after {
+      content: 'QUESTÃO RESOLVIDA'; }
+  .questao_resolvida.linguagens .line2 {
+    background-color: #94aa24; }
+  .questao_resolvida.ciencias_natureza::after {
+    border-bottom: 2px solid #b76e11; }
+  .questao_resolvida.ciencias_natureza .text-read1 {
+    border: solid 2px #b76e11;
+    border-bottom: none;
+    border-left: solid 8px #b76e11;
+    color: #b76e11;
+    border-right: none;
+    background-color: #fff3e7; }
+    .questao_resolvida.ciencias_natureza .text-read1::after {
+      content: 'QUESTÃO RESOLVIDA'; }
+  .questao_resolvida.ciencias_natureza .line2 {
+    background-color: #b76e11; }
+  .questao_resolvida.ciencias_humanas::after {
+    border-bottom: 2px solid #2c9476; }
+  .questao_resolvida.ciencias_humanas .text-read1 {
+    border: solid 2px #2c9476;
+    border-bottom: none;
+    border-left: solid 8px #2c9476;
+    color: #2c9476;
+    border-right: none;
+    background-color: #d1eadf; }
+    .questao_resolvida.ciencias_humanas .text-read1::after {
+      content: 'QUESTÃO RESOLVIDA'; }
+  .questao_resolvida.ciencias_humanas .line2 {
+    background-color: #2c9476; }
+  .questao_resolvida > *:first-child {
+    margin-top: 0; }
+    .questao_resolvida > *:first-child._left + ._right {
+      margin-top: 0; }
+    .questao_resolvida > *:first-child._right + ._left {
+      margin-top: 0; }
+  .questao_resolvida > *:last-child {
+    margin-bottom: 0; }
+  .questao_resolvida > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .questao_resolvida > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .questao_resolvida._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .questao_resolvida._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .container_take_a_tip_exercicios {
   position: relative;
   box-sizing: border-box;
@@ -9377,6 +9639,264 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_fato_ou_fake {
+  padding: 24px;
+  margin-top: 48px;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  /* media query */ }
+  .container_fato_ou_fake::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #bed8bb;
+    margin-top: 16px; }
+  .container_fato_ou_fake .text-read {
+    border-top: solid 2px #bed8bb;
+    border-left: solid 6px #216e30;
+    font-size: 1rem;
+    border-bottom: none;
+    color: #216e30;
+    width: 187px;
+    text-align: center;
+    padding: 3px 8px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #dbe9d9; }
+  .container_fato_ou_fake .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #bed8bb; }
+  .container_fato_ou_fake .lines {
+    margin-bottom: 0;
+    border: 3px solid #216e30;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px; }
+  .container_fato_ou_fake.artes {
+    border: 2px solid #3F1F71; }
+    .container_fato_ou_fake.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_fato_ou_fake.artes .line1 {
+      background-color: #3F1F71; }
+  .container_fato_ou_fake.lingua_inglesa .text-read {
+    border-top: solid 2px #015F5B;
+    border-left: solid 6px #8CCDD2;
+    color: #015F5B; }
+  .container_fato_ou_fake.lingua_inglesa .line1 {
+    background-color: #015F5B; }
+  .container_fato_ou_fake.lingua_portuguesa::after {
+    border-bottom: 2px solid #E59798; }
+  .container_fato_ou_fake.lingua_portuguesa .text-read {
+    border-top: solid 2px #E59798;
+    border-left: solid 6px #c9252c;
+    color: #c9252c; }
+  .container_fato_ou_fake.lingua_portuguesa .line1 {
+    background-color: #E59798; }
+  .container_fato_ou_fake.lingua_portuguesa .lines {
+    border: 3px solid #c9252c; }
+  .container_fato_ou_fake.matematica::after {
+    border-bottom: 2px solid #97B7D9; }
+  .container_fato_ou_fake.matematica .text-read {
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    color: #033878;
+    background-color: #d0e1f0; }
+  .container_fato_ou_fake.matematica .line1 {
+    background-color: #97B7D9; }
+  .container_fato_ou_fake.matematica .lines {
+    border: 3px solid #033878; }
+  .container_fato_ou_fake.linguagens::after {
+    border-bottom: 2px solid #9e91c0; }
+  .container_fato_ou_fake.linguagens .text-read {
+    border-top: solid 2px #9e91c0;
+    border-left: solid 6px #5f4893;
+    color: #5f4893;
+    background-color: #dad6e8; }
+  .container_fato_ou_fake.linguagens .line1 {
+    background-color: #9e91c0; }
+  .container_fato_ou_fake.linguagens .lines {
+    border: 3px solid #5f4893; }
+  .container_fato_ou_fake.ciencias_natureza::after {
+    border-bottom: 2px solid #bed8bb; }
+  .container_fato_ou_fake.ciencias_natureza .text-read {
+    border-top: solid 2px #bed8bb;
+    border-left: solid 6px #216e30;
+    color: #216e30;
+    background-color: #dbe9d9; }
+  .container_fato_ou_fake.ciencias_natureza .line1 {
+    background-color: #bed8bb; }
+  .container_fato_ou_fake.ciencias_natureza .lines {
+    border: 3px solid #216e30; }
+  .container_fato_ou_fake.ciencias_humanas::after {
+    border-bottom: 2px solid #eca57b; }
+  .container_fato_ou_fake.ciencias_humanas .text-read {
+    border-top: solid 2px #eca57b;
+    border-left: solid 6px #db5c1e;
+    color: #db5c1e;
+    background-color: #f9dfce; }
+  .container_fato_ou_fake.ciencias_humanas .line1 {
+    background-color: #eca57b; }
+  .container_fato_ou_fake.ciencias_humanas .lines {
+    border: 3px solid #db5c1e; }
+  .container_fato_ou_fake > *:first-child {
+    margin-top: 0; }
+    .container_fato_ou_fake > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_fato_ou_fake > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_fato_ou_fake > *:last-child {
+    margin-bottom: 0; }
+  .container_fato_ou_fake > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_fato_ou_fake > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_fato_ou_fake._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_fato_ou_fake._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.container_perspectiva {
+  padding: 24px;
+  margin-top: 48px;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  /* media query */ }
+  .container_perspectiva::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #eca57b;
+    margin-top: 16px; }
+  .container_perspectiva .text-read {
+    border-top: solid 2px #eca57b;
+    border-left: solid 6px #db5c1e;
+    font-size: 1rem;
+    border-bottom: none;
+    color: #db5c1e;
+    width: 187px;
+    text-align: center;
+    padding: 3px 8px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #f9dfce; }
+  .container_perspectiva .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #eca57b; }
+  .container_perspectiva .lines {
+    margin-bottom: 0;
+    border: 3px solid #db5c1e;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px; }
+  .container_perspectiva.artes {
+    border: 2px solid #3F1F71; }
+    .container_perspectiva.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_perspectiva.artes .line1 {
+      background-color: #3F1F71; }
+  .container_perspectiva.lingua_inglesa .text-read {
+    border-top: solid 2px #015F5B;
+    border-left: solid 6px #8CCDD2;
+    color: #015F5B; }
+  .container_perspectiva.lingua_inglesa .line1 {
+    background-color: #015F5B; }
+  .container_perspectiva.lingua_portuguesa::after {
+    border-bottom: 2px solid #E59798; }
+  .container_perspectiva.lingua_portuguesa .text-read {
+    border-top: solid 2px #E59798;
+    border-left: solid 6px #c9252c;
+    color: #c9252c; }
+  .container_perspectiva.lingua_portuguesa .line1 {
+    background-color: #E59798; }
+  .container_perspectiva.lingua_portuguesa .lines {
+    border: 3px solid #c9252c; }
+  .container_perspectiva.matematica::after {
+    border-bottom: 2px solid #97B7D9; }
+  .container_perspectiva.matematica .text-read {
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    color: #033878;
+    background-color: #d0e1f0; }
+  .container_perspectiva.matematica .line1 {
+    background-color: #97B7D9; }
+  .container_perspectiva.matematica .lines {
+    border: 3px solid #033878; }
+  .container_perspectiva.linguagens::after {
+    border-bottom: 2px solid #9e91c0; }
+  .container_perspectiva.linguagens .text-read {
+    border-top: solid 2px #9e91c0;
+    border-left: solid 6px #5f4893;
+    color: #5f4893;
+    background-color: #dad6e8; }
+  .container_perspectiva.linguagens .line1 {
+    background-color: #9e91c0; }
+  .container_perspectiva.linguagens .lines {
+    border: 3px solid #5f4893; }
+  .container_perspectiva.ciencias_natureza::after {
+    border-bottom: 2px solid #bed8bb; }
+  .container_perspectiva.ciencias_natureza .text-read {
+    border-top: solid 2px #bed8bb;
+    border-left: solid 6px #216e30;
+    color: #216e30;
+    background-color: #dbe9d9; }
+  .container_perspectiva.ciencias_natureza .line1 {
+    background-color: #bed8bb; }
+  .container_perspectiva.ciencias_natureza .lines {
+    border: 3px solid #216e30; }
+  .container_perspectiva.ciencias_humanas::after {
+    border-bottom: 2px solid #eca57b; }
+  .container_perspectiva.ciencias_humanas .text-read {
+    border-top: solid 2px #eca57b;
+    border-left: solid 6px #db5c1e;
+    color: #db5c1e;
+    background-color: #f9dfce; }
+  .container_perspectiva.ciencias_humanas .line1 {
+    background-color: #eca57b; }
+  .container_perspectiva.ciencias_humanas .lines {
+    border: 3px solid #db5c1e; }
+  .container_perspectiva > *:first-child {
+    margin-top: 0; }
+    .container_perspectiva > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_perspectiva > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_perspectiva > *:last-child {
+    margin-bottom: 0; }
+  .container_perspectiva > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_perspectiva > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_perspectiva._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_perspectiva._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .dedeira {
   padding: 0px;
   margin: 48px 16px 48px;
@@ -9781,7 +10301,7 @@ blockquote {
     border-bottom: 2px solid #069891;
     margin-top: 16px; }
   .container_connections .text-read2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #069891;
     width: 235px;
     text-align: center;
@@ -9931,7 +10451,7 @@ blockquote {
     border-bottom: 2px solid #069891;
     margin-top: 16px; }
   .container_read_more .text-read2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     background-color: #e2ecb8;
     color: #069891;
     width: 235px;
@@ -10008,59 +10528,108 @@ blockquote {
       z-index: 1; } }
 
 .container_ler_e_escutar {
-  border: 2px solid #96171a;
   padding: 24px;
   margin-top: 48px;
   border-radius: 5px;
   display: block;
+  position: relative;
   /* media query */ }
+  .container_ler_e_escutar::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #E59798;
+    margin-top: 16px; }
   .container_ler_e_escutar .text-read {
-    border-top: solid 2px #96171a;
-    border-left: solid 6px #E59798;
-    font-size: 16px;
+    border-top: solid 2px #E59798;
+    border-left: solid 6px #c9252c;
+    font-size: 1rem;
     border-bottom: none;
-    color: #96171a;
+    color: #c9252c;
     width: 131px;
     text-align: center;
-    padding: 3px 0px 3px 6px;
+    padding: 3px 8px 3px 6px;
     font-family: montserrat;
-    font-weight: 700; }
+    font-weight: 700;
+    background-color: #f6e4dc; }
   .container_ler_e_escutar .line1 {
     width: 100%;
     height: 2px;
-    background-color: #96171a; }
-  .container_ler_e_escutar.artes {
-    border: 2px solid #3F1F71; }
-    .container_ler_e_escutar.artes .text-read {
-      border-top: solid 2px #3F1F71;
-      border-left: solid 6px #B9A9CB;
-      color: #3F1F71; }
-    .container_ler_e_escutar.artes .line1 {
-      background-color: #3F1F71; }
-  .container_ler_e_escutar.lingua_inglesa {
-    border: 2px solid #015F5B; }
-    .container_ler_e_escutar.lingua_inglesa .text-read {
-      border-top: solid 2px #015F5B;
-      border-left: solid 6px #8CCDD2;
-      color: #015F5B; }
-    .container_ler_e_escutar.lingua_inglesa .line1 {
-      background-color: #015F5B; }
-  .container_ler_e_escutar.lingua_portuguesa {
-    border: 2px solid #96171a; }
-    .container_ler_e_escutar.lingua_portuguesa .text-read {
-      border-top: solid 2px #96171a;
-      border-left: solid 6px #E59798;
-      color: #96171a; }
-    .container_ler_e_escutar.lingua_portuguesa .line1 {
-      background-color: #96171a; }
-  .container_ler_e_escutar.matematica {
-    border: 2px solid #033878; }
-    .container_ler_e_escutar.matematica .text-read {
-      border-top: solid 2px #033878;
-      border-left: solid 6px #97B7D9;
-      color: #033878; }
-    .container_ler_e_escutar.matematica .line1 {
-      background-color: #033878; }
+    background-color: #E59798; }
+  .container_ler_e_escutar .lines {
+    margin-bottom: 0;
+    border: 3px solid #c9252c;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px; }
+  .container_ler_e_escutar.artes .text-read {
+    border-top: solid 2px #3F1F71;
+    border-left: solid 6px #B9A9CB;
+    color: #3F1F71; }
+  .container_ler_e_escutar.artes .line1 {
+    background-color: #3F1F71; }
+  .container_ler_e_escutar.lingua_inglesa .text-read {
+    border-top: solid 2px #015F5B;
+    border-left: solid 6px #8CCDD2;
+    color: #015F5B; }
+  .container_ler_e_escutar.lingua_inglesa .line1 {
+    background-color: #015F5B; }
+  .container_ler_e_escutar.lingua_portuguesa::after {
+    border-bottom: 2px solid #E59798; }
+  .container_ler_e_escutar.lingua_portuguesa .text-read {
+    border-top: solid 2px #E59798;
+    border-left: solid 6px #c9252c;
+    color: #c9252c; }
+  .container_ler_e_escutar.lingua_portuguesa .line1 {
+    background-color: #E59798; }
+  .container_ler_e_escutar.lingua_portuguesa .lines {
+    border: 3px solid #c9252c; }
+  .container_ler_e_escutar.matematica::after {
+    border-bottom: 2px solid #97B7D9; }
+  .container_ler_e_escutar.matematica .text-read {
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    color: #033878;
+    background-color: #d0e1f0; }
+  .container_ler_e_escutar.matematica .line1 {
+    background-color: #97B7D9; }
+  .container_ler_e_escutar.matematica .lines {
+    border: 3px solid #033878; }
+  .container_ler_e_escutar.linguagens::after {
+    border-bottom: 2px solid #9e91c0; }
+  .container_ler_e_escutar.linguagens .text-read {
+    border-top: solid 2px #9e91c0;
+    border-left: solid 6px #5f4893;
+    color: #5f4893;
+    background-color: #dad6e8; }
+  .container_ler_e_escutar.linguagens .line1 {
+    background-color: #9e91c0; }
+  .container_ler_e_escutar.linguagens .lines {
+    border: 3px solid #5f4893; }
+  .container_ler_e_escutar.ciencias_natureza::after {
+    border-bottom: 2px solid #bed8bb; }
+  .container_ler_e_escutar.ciencias_natureza .text-read {
+    border-top: solid 2px #bed8bb;
+    border-left: solid 6px #216e30;
+    color: #216e30;
+    background-color: #dbe9d9; }
+  .container_ler_e_escutar.ciencias_natureza .line1 {
+    background-color: #bed8bb; }
+  .container_ler_e_escutar.ciencias_natureza .lines {
+    border: 3px solid #216e30; }
+  .container_ler_e_escutar.ciencias_humanas::after {
+    border-bottom: 2px solid #eca57b; }
+  .container_ler_e_escutar.ciencias_humanas .text-read {
+    border-top: solid 2px #eca57b;
+    border-left: solid 6px #db5c1e;
+    color: #db5c1e;
+    background-color: #f9dfce; }
+  .container_ler_e_escutar.ciencias_humanas .line1 {
+    background-color: #eca57b; }
+  .container_ler_e_escutar.ciencias_humanas .lines {
+    border: 3px solid #db5c1e; }
   .container_ler_e_escutar > *:first-child {
     margin-top: 0; }
     .container_ler_e_escutar > *:first-child._left + ._right {
@@ -10164,59 +10733,70 @@ blockquote {
       z-index: 1; } }
 
 .container_matema_tec {
-  border: 2px solid #96171a;
   padding: 24px;
   margin-top: 48px;
   border-radius: 5px;
   display: block;
+  position: relative;
   /* media query */ }
+  .container_matema_tec::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #97B7D9;
+    margin-top: 16px; }
   .container_matema_tec .text-read {
-    border-top: solid 2px #033878;
-    border-left: solid 6px #97B7D9;
-    font-size: 16px;
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    font-size: 1rem;
     border-bottom: none;
-    color: #96171a;
+    color: #033878;
     width: 117px;
     text-align: center;
-    padding: 3px 0px 3px 6px;
+    padding: 3px 8px 3px 6px;
     font-family: montserrat;
-    font-weight: 700; }
+    font-weight: 700;
+    background-color: #d0e1f0; }
   .container_matema_tec .line1 {
     width: 100%;
     height: 2px;
-    background-color: #033878; }
-  .container_matema_tec.artes {
-    border: 2px solid #3F1F71; }
-    .container_matema_tec.artes .text-read {
-      border-top: solid 2px #3F1F71;
-      border-left: solid 6px #B9A9CB;
-      color: #3F1F71; }
-    .container_matema_tec.artes .line1 {
-      background-color: #3F1F71; }
-  .container_matema_tec.lingua_inglesa {
-    border: 2px solid #015F5B; }
-    .container_matema_tec.lingua_inglesa .text-read {
-      border-top: solid 2px #015F5B;
-      border-left: solid 6px #8CCDD2;
-      color: #015F5B; }
-    .container_matema_tec.lingua_inglesa .line1 {
-      background-color: #015F5B; }
-  .container_matema_tec.lingua_portuguesa {
-    border: 2px solid #96171a; }
-    .container_matema_tec.lingua_portuguesa .text-read {
-      border-top: solid 2px #96171a;
-      border-left: solid 6px #E59798;
-      color: #96171a; }
-    .container_matema_tec.lingua_portuguesa .line1 {
-      background-color: #96171a; }
-  .container_matema_tec.matematica {
-    border: 2px solid #033878; }
-    .container_matema_tec.matematica .text-read {
-      border-top: solid 2px #033878;
-      border-left: solid 6px #97B7D9;
-      color: #033878; }
-    .container_matema_tec.matematica .line1 {
-      background-color: #033878; }
+    background-color: #97B7D9; }
+  .container_matema_tec .lines {
+    margin-bottom: 0;
+    border: 3px solid #033878;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px; }
+  .container_matema_tec.artes .text-read {
+    border-top: solid 2px #3F1F71;
+    border-left: solid 6px #B9A9CB;
+    color: #3F1F71; }
+  .container_matema_tec.artes .line1 {
+    background-color: #3F1F71; }
+  .container_matema_tec.lingua_inglesa .text-read {
+    border-top: solid 2px #015F5B;
+    border-left: solid 6px #8CCDD2;
+    color: #015F5B; }
+  .container_matema_tec.lingua_inglesa .line1 {
+    background-color: #015F5B; }
+  .container_matema_tec.lingua_portuguesa .text-read {
+    border-top: solid 2px #96171a;
+    border-left: solid 6px #E59798;
+    color: #96171a; }
+  .container_matema_tec.lingua_portuguesa .line1 {
+    background-color: #96171a; }
+  .container_matema_tec.matematica::after {
+    border-bottom: 2px solid #97B7D9; }
+  .container_matema_tec.matematica .text-read {
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    color: #033878; }
+  .container_matema_tec.matematica .line1 {
+    background-color: #97B7D9; }
+  .container_matema_tec.matematica .lines {
+    border: 3px solid #033878; }
   .container_matema_tec > *:first-child {
     margin-top: 0; }
     .container_matema_tec > *:first-child._left + ._right {
@@ -10242,27 +10822,42 @@ blockquote {
       z-index: 1; } }
 
 .container_refletir_e_analisar {
-  border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 0px 0px 0px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
+  position: relative;
   /* media query */ }
+  .container_refletir_e_analisar::after {
+    content: '';
+    display: block;
+    clear: both;
+    border-bottom: 2px solid #E59798;
+    margin-top: 16px; }
   .container_refletir_e_analisar .text-read {
     border-top: solid 2px #96171a;
     border-left: solid 6px #E59798;
-    font-size: 16px;
+    font-size: 1rem;
     border-bottom: none;
     color: #96171a;
     width: 187px;
     text-align: center;
-    padding: 3px 0px 3px 6px;
-    font-family: "Bitter", sans-serif;
-    font-weight: 700; }
+    padding: 3px 8px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700;
+    background-color: #f6e4dc; }
   .container_refletir_e_analisar .line1 {
     width: 100%;
     height: 2px;
-    background-color: #96171a; }
+    background-color: #E59798; }
+  .container_refletir_e_analisar .lines {
+    margin-bottom: 0;
+    border: 3px solid #c9252c;
+    display: block;
+    width: 130px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px; }
   .container_refletir_e_analisar.artes {
     border: 2px solid #3F1F71; }
     .container_refletir_e_analisar.artes .text-read {
@@ -10271,30 +10866,66 @@ blockquote {
       color: #3F1F71; }
     .container_refletir_e_analisar.artes .line1 {
       background-color: #3F1F71; }
-  .container_refletir_e_analisar.lingua_inglesa {
-    border: 2px solid #015F5B; }
-    .container_refletir_e_analisar.lingua_inglesa .text-read {
-      border-top: solid 2px #015F5B;
-      border-left: solid 6px #8CCDD2;
-      color: #015F5B; }
-    .container_refletir_e_analisar.lingua_inglesa .line1 {
-      background-color: #015F5B; }
-  .container_refletir_e_analisar.lingua_portuguesa {
-    border: 2px solid #96171a; }
-    .container_refletir_e_analisar.lingua_portuguesa .text-read {
-      border-top: solid 2px #96171a;
-      border-left: solid 6px #E59798;
-      color: #96171a; }
-    .container_refletir_e_analisar.lingua_portuguesa .line1 {
-      background-color: #96171a; }
-  .container_refletir_e_analisar.matematica {
-    border: 2px solid #033878; }
-    .container_refletir_e_analisar.matematica .text-read {
-      border-top: solid 2px #033878;
-      border-left: solid 6px #97B7D9;
-      color: #033878; }
-    .container_refletir_e_analisar.matematica .line1 {
-      background-color: #033878; }
+  .container_refletir_e_analisar.lingua_inglesa .text-read {
+    border-top: solid 2px #015F5B;
+    border-left: solid 6px #8CCDD2;
+    color: #015F5B; }
+  .container_refletir_e_analisar.lingua_inglesa .line1 {
+    background-color: #015F5B; }
+  .container_refletir_e_analisar.lingua_portuguesa::after {
+    border-bottom: 2px solid #E59798; }
+  .container_refletir_e_analisar.lingua_portuguesa .text-read {
+    border-top: solid 2px #E59798;
+    border-left: solid 6px #c9252c;
+    color: #c9252c; }
+  .container_refletir_e_analisar.lingua_portuguesa .line1 {
+    background-color: #E59798; }
+  .container_refletir_e_analisar.lingua_portuguesa .lines {
+    border: 3px solid #c9252c; }
+  .container_refletir_e_analisar.matematica::after {
+    border-bottom: 2px solid #97B7D9; }
+  .container_refletir_e_analisar.matematica .text-read {
+    border-top: solid 2px #97B7D9;
+    border-left: solid 6px #033878;
+    color: #033878;
+    background-color: #d0e1f0; }
+  .container_refletir_e_analisar.matematica .line1 {
+    background-color: #97B7D9; }
+  .container_refletir_e_analisar.matematica .lines {
+    border: 3px solid #033878; }
+  .container_refletir_e_analisar.linguagens::after {
+    border-bottom: 2px solid #9e91c0; }
+  .container_refletir_e_analisar.linguagens .text-read {
+    border-top: solid 2px #9e91c0;
+    border-left: solid 6px #5f4893;
+    color: #5f4893;
+    background-color: #dad6e8; }
+  .container_refletir_e_analisar.linguagens .line1 {
+    background-color: #9e91c0; }
+  .container_refletir_e_analisar.linguagens .lines {
+    border: 3px solid #5f4893; }
+  .container_refletir_e_analisar.ciencias_natureza::after {
+    border-bottom: 2px solid #bed8bb; }
+  .container_refletir_e_analisar.ciencias_natureza .text-read {
+    border-top: solid 2px #bed8bb;
+    border-left: solid 6px #216e30;
+    color: #216e30;
+    background-color: #dbe9d9; }
+  .container_refletir_e_analisar.ciencias_natureza .line1 {
+    background-color: #bed8bb; }
+  .container_refletir_e_analisar.ciencias_natureza .lines {
+    border: 3px solid #216e30; }
+  .container_refletir_e_analisar.ciencias_humanas::after {
+    border-bottom: 2px solid #eca57b; }
+  .container_refletir_e_analisar.ciencias_humanas .text-read {
+    border-top: solid 2px #eca57b;
+    border-left: solid 6px #db5c1e;
+    color: #db5c1e;
+    background-color: #f9dfce; }
+  .container_refletir_e_analisar.ciencias_humanas .line1 {
+    background-color: #eca57b; }
+  .container_refletir_e_analisar.ciencias_humanas .lines {
+    border: 3px solid #db5c1e; }
   .container_refletir_e_analisar > *:first-child {
     margin-top: 0; }
     .container_refletir_e_analisar > *:first-child._left + ._right {

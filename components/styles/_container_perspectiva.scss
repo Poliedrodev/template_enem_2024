@@ -1,4 +1,4 @@
-.container_refletir_e_analisar {
+.container_perspectiva {
     padding: 24px;
     margin-top: 48px;
     border-radius: 5px;
@@ -9,33 +9,33 @@
         content: '';
         display: block;
         clear: both;
-        border-bottom: 2px solid $por_cor3;
+        border-bottom: 2px solid $seg_cnh_cor3;
         margin-top: 16px;
     }
 
     .text-read {
-        border-top: solid 2px $por_cor2;
-        border-left: solid 6px $por_cor3;
+        border-top: solid 2px $seg_cnh_cor3;
+        border-left: solid 6px $cnh_cor1;
         font-size: 1rem;
         border-bottom: none;
-        color: $por_cor2;
+        color: $cnh_cor1;
         width: 187px;
         text-align: center;
         padding: 3px 8px 3px 6px;
         font-family: montserrat;
         font-weight: 700;
-        background-color: $seg_por_cor1;
+        background-color: $seg_cnh_cor1;
     }
 
     .line1 {
         width: 100%;
         height: 2px;
-        background-color: $por_cor3;
+        background-color: $seg_cnh_cor3;
     }
 
     .lines {
         margin-bottom: 0;
-        border: 3px solid $por_cor1;
+        border: 3px solid $cnh_cor1;
         display: block;
         width: 130px;
         position: absolute;

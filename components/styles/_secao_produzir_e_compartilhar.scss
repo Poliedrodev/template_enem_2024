@@ -6,6 +6,7 @@
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
+  background-color: #f4f2f7;
  
   position: relative;
   justify-content: space-between;
@@ -17,7 +18,17 @@
   }
 
   .icone_disciplina {
-    position: absolute !important;
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px;
   }
 }
 
@@ -202,7 +213,7 @@
     background-color: $seg_lin_cor5;
 
     .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_produzir_e_compartilhar.svg");
       width: 50px;
       height: 50px;
       align-items: left;

@@ -1,4 +1,4 @@
-.container_connections {
+.container_construcao {
   padding: 8px 16px 16px 16px;
   margin-top: 48px;
   clear: both;
@@ -22,7 +22,7 @@
     font-weight: 700;
     background-color: $seg_ing_cor1;
     &::after {
-      content: 'CONEXÕES';
+      content: 'EM CONSTRUÇÃO';
     }
   }
   .line3{
@@ -111,7 +111,7 @@
         border-bottom: none;
         color: $ing_cor1;
         &::after {
-          content: 'CONNECTIONS';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }
@@ -129,7 +129,7 @@
         border-bottom: none;
         color: $por_cor2;
         &::after {
-          content: 'CONEXÕES';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }
@@ -147,7 +147,7 @@
         border-bottom: none;
         color: $mat_cor1;
         &::after {
-          content: 'CONEXÕES';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }
@@ -165,7 +165,7 @@
         border-bottom: none;
         color: $ling_cor1;
         &::after {
-          content: 'CONEXÕES';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }
@@ -183,7 +183,7 @@
         border-bottom: none;
         color: $cnz_cor1;
         &::after {
-          content: 'CONEXÕES';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }
@@ -202,7 +202,7 @@
         border-bottom: none;
         color: $cnh_cor1;
         &::after {
-          content: 'CONEXÕES';
+          content: 'EM CONSTRUÇÃO';
         }
     }
   }

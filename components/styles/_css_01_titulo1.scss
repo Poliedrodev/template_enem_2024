@@ -42,6 +42,36 @@
     }
   }
 
+  &.linguagens {
+    .line {
+      background-color: $ling_cor2;
+    }
+
+    .text {
+      color: $ling_cor3;
+    }
+  }
+
+  &.ciencias_natureza {
+    .line {
+      background-color: $cnz_cor3;
+    }
+
+    .text {
+      color: $cnz_cor2;
+    }
+  }
+
+  &.ciencias_humanas {
+    .line {
+      background-color: $cnh_cor3;
+    }
+
+    .text {
+      color: $cnh_cor2;
+    }
+  }
+
   .line {
     width: 215px;
     background-color: black;

@@ -689,6 +689,23 @@
         }
       ]
     },
+    
+    {
+      "name": "secao_ciencia_em_acao",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Seção Ciência em Ação",
+      "properties": [
+        "number_section",
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "hyperlink",
+          "directiveKey": "link-url"
+        }
+      ]
+    },
     {
       "name": "secao_topo_produzir_e_compartilhar",
       "icon": "icons/components/icon_02_texto_destaque.svg",
@@ -716,10 +733,15 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Quiz",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        {
+          "name": "hyperlink",
+          "directiveKey": "link-url"
+        }
       ]
     },
     {
@@ -1817,6 +1839,17 @@
       "name": "container_connections",
       "icon": "icons/components/container.svg",
       "label": "Container Connections",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },    
+    {
+      "name": "container_construcao",
+      "icon": "icons/components/container.svg",
+      "label": "Container em Construção",
       "properties": [
         "style",
         "text-align",
@@ -3178,6 +3211,7 @@
       "label": "05 Gráfico Título",
       "properties": [
         "style",
+        "text-align",
         "letter-spacing",
         "line-height"
       ]
@@ -7072,9 +7106,11 @@
         "primeira_pagina",
         "marcador_pagina",
         "container_connections",
+        "container_construcao",
         "container_em_analise",
         "container_fato_ou_fake",
-        "container_perspectiva"
+        "container_perspectiva",
+        "secao_ciencia_em_acao"
       ]
     },
     {

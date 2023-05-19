@@ -1,14 +1,13 @@
 .css_05_mapa_titulo {
   display: block;
   align-items: left;
-  font-size: 20px;  
+  font-size: 1.5rem;  
   font-family: $font-prelo-extraBold;
-  border-top: solid 3px;
-  border-bottom: solid 3px;
   margin-bottom: 0px;
+  padding: 16px 0px 0px 0px;
+
   &.artes {
-    border-color: #84a214;
-    color: #84a214 !important;
+    color: $art_cor2 !important;
   }
   &.biologia {
     border-color: #BD8432;
@@ -31,16 +30,13 @@
     color: #208F6D !important;
   }
   &.lingua_inglesa {
-    border-color: #84A214;
-    color: #84A214 !important;
+    color: $ing_cor1 !important;
   }
   &.lingua_portuguesa {
-    border-color: #84A214;
-    color: #84A214 !important;
+    color: $por_cor2 !important;
   }
   &.matematica {
-    border-color: #C09100;
-    color: #C09100 !important;
+    color: $mat_cor2 !important;
   }
   &.producao_de_texto {
     border-color: #84A214;
@@ -53,6 +49,15 @@
   &.sociologia {
     border-color: #208F6D;
     color: #208F6D !important;
+  }
+  &.linguagens {
+    color: $ling_cor3 !important;
+  }  
+  &.ciencias_natureza {
+    color: $cnz_cor3 !important;
+  }
+  &.ciencias_humanas {
+    color: $cnh_cor2 !important;
   }
 
   @media only screen and (min-width: $phone-max-width) {

@@ -2,9 +2,44 @@
   display: block;
   text-align: left;
   font-size: 24px;
-  color: #ffffff;
   margin-top: 24px;
-  //font-family: Prelo, bold; ver como importar
+  font-family: $font-prelo-extraBold;
+  &.artes {
+    color: $textColor3 !important;
+  }
+  &.biologia {
+    color: $textColor3 !important;
+  }
+  &.filosofia {
+    color: $textColor3 !important;
+  }
+  &.fisica {
+    color: $textColor3 !important;
+  }
+  &.geografia {
+    color: $textColor3 !important;
+  }
+  &.historia {
+    color: $textColor3 !important;
+  }
+  &.lingua_inglesa {
+    color: $ling_cor4 !important;
+  }
+  &.lingua_portuguesa {
+    color: $ling_cor4 !important;
+  }
+  &.matematica {
+    color: $cnz_cor4 !important;
+  }
+  &.linguagens {
+    color: $ling_cor4 !important;
+  }
+  &.ciencias_natureza {
+    color: $cnz_cor4 !important;
+  }
+  &.ciencias_humanas {
+    color: $ling_cor4 !important;
+  }
 }
 
 

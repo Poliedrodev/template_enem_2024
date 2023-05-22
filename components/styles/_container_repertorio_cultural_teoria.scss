@@ -1,11 +1,12 @@
 .container_repertorio_cultural_teoria {
   position: relative;
   box-sizing: border-box;
-  margin-top: 32px;
+  margin: 32px 0px 0px 0px;
   padding: 0px 28px 0px 28px;
   transition: all 0.3;
-  background-color: #ECF0A6;
+  background-color: $seg_lin_cor3;
   border-radius: 8px;
+  border: 1px solid $teoria;
 
   input[type=checkbox] {
     display: none;
@@ -37,12 +38,12 @@
     &:before {
       content: 'REPERTÓRIO CULTURAL';
       font-family: "nunito sans";
-      font-size: 14px;
+      font-size: 1rem;
       font-weight: 900;
-      color: #62883b;
+      color: $teoria;
       position: absolute;
       left: 28px;
-      top: 10px;
+      top: 8px;
     }
   }
 
@@ -55,6 +56,7 @@
 
   .txt_boxe_collapsed {
     display: none;
+    margin-bottom: 15px;
   }
 
   .doc_container {
@@ -132,33 +134,66 @@
   }
 
   &.lingua_inglesa {
-    background-color: #ECF0A6;
+    background-color: $seg_por_cor2;
 
     label {
       &:before {
-        color: #C8D300;
+        color: $teoria;
       }
 
     }
   }
 
   &.lingua_portuguesa {
-    background-color: #ECF0A6;
+    background-color: $seg_por_cor2;
 
     label {
       &:before {
-        color: #84A214;
+        color: $teoria;
       }
 
     }
   }
 
   &.matematica {
-    background-color: #FAEDBC;
+    background-color: $seg_mat_cor6;
 
     label {
       &:before {
-        color: #F1CB40;
+        color: $teoria;
+      }
+
+    }
+  }  
+
+  &.linguagens {
+    background-color: $seg_por_cor2;
+
+    label {
+      &:before {
+        color: $teoria;
+      }
+
+    }
+  }
+
+  &.ciencias_natureza {
+    background-color: $seg_cnz_cor5;
+
+    label {
+      &:before {
+        color: $teoria;
+      }
+
+    }
+  }
+
+  &.ciencias_humanas {
+    background-color: $seg_cnh_cor4;
+
+    label {
+      &:before {
+        color: $teoria;
       }
 
     }

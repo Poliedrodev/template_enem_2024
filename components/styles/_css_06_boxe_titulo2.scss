@@ -4,41 +4,42 @@
   font-size: 26px;
   font-family: $font-prelo-extraBold;
   margin: 0px;
+  color: $textColor3;
   &.artes {
-    color: #C8D300 !important;
+    color: $textColor3 !important;
   }
   &.biologia {
-    color: #F7A941 !important;
+    color: $textColor3 !important;
   }
   &.filosofia {
-    color: #208F6D !important;
+    color: $textColor3 !important;
   }
   &.fisica {
-    color: #BD8432 !important;
+    color: $textColor3 !important;
   }
   &.geografia {
-    color: #208F6D !important;
+    color: $textColor3 !important;
   }
   &.historia {
-    color: #208F6D !important;
+    color: $textColor3 !important;
   }
   &.lingua_inglesa {
-    color: #84A214 !important;
+    color: $ling_cor4 !important;
   }
   &.lingua_portuguesa {
-    color: #84A214 !important;
+    color: $ling_cor4 !important;
   }
   &.matematica {
-    color: #C09100 !important;
+    color: $cnz_cor4 !important;
   }
-  &.producao_de_texto {
-    color: #84A214 !important;
+  &.linguagens {
+    color: $ling_cor4 !important;
   }
-  &.quimica {
-    color: #BD8432 !important;
+  &.ciencias_natureza {
+    color: $cnz_cor4 !important;
   }
-  &.sociologia {
-    color: #208F6D !important;
+  &.ciencias_humanas {
+    color: $ling_cor4 !important;
   }
 }
 

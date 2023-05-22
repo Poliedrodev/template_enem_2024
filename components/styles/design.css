@@ -10296,7 +10296,7 @@ blockquote {
     border: 1px solid #3d9a48;
     color: #ffffff; }
     .dedeira.ciencias_natureza .text-read2::after {
-      content: 'CIÊNCIAS NATUREZA';
+      content: 'CIÊNCIAS DA NATUREZA';
       display: block;
       clear: both; }
   .dedeira.ciencias_humanas .text-read2 {
@@ -12389,11 +12389,12 @@ blockquote {
 .container_repertorio_cultural_teoria {
   position: relative;
   box-sizing: border-box;
-  margin-top: 32px;
+  margin: 32px 0px 0px 0px;
   padding: 0px 28px 0px 28px;
   transition: all 0.3;
   background-color: #ECF0A6;
   border-radius: 8px;
+  border: 1px solid #ffffff;
   /* media query */ }
   .container_repertorio_cultural_teoria input[type=checkbox] {
     display: none; }
@@ -12416,18 +12417,19 @@ blockquote {
     .container_repertorio_cultural_teoria label:before {
       content: 'REPERTÓRIO CULTURAL';
       font-family: "nunito sans";
-      font-size: 14px;
+      font-size: 1rem;
       font-weight: 900;
-      color: #62883b;
+      color: #ffffff;
       position: absolute;
       left: 28px;
-      top: 10px; }
+      top: 8px; }
   .container_repertorio_cultural_teoria .line-box {
     border-left: 3px solid #FFF;
     display: none;
     padding-inline-start: 16px; }
   .container_repertorio_cultural_teoria .txt_boxe_collapsed {
-    display: none; }
+    display: none;
+    margin-bottom: 15px; }
   .container_repertorio_cultural_teoria .doc_container {
     position: relative;
     padding: 16px;
@@ -12457,17 +12459,29 @@ blockquote {
     .container_repertorio_cultural_teoria.historia label:before {
       color: #8CCAAE; }
   .container_repertorio_cultural_teoria.lingua_inglesa {
-    background-color: #ECF0A6; }
+    background-color: #cfe188; }
     .container_repertorio_cultural_teoria.lingua_inglesa label:before {
-      color: #C8D300; }
+      color: #ffffff; }
   .container_repertorio_cultural_teoria.lingua_portuguesa {
-    background-color: #ECF0A6; }
+    background-color: #cfe188; }
     .container_repertorio_cultural_teoria.lingua_portuguesa label:before {
-      color: #84A214; }
+      color: #ffffff; }
   .container_repertorio_cultural_teoria.matematica {
-    background-color: #FAEDBC; }
+    background-color: #f7d079; }
     .container_repertorio_cultural_teoria.matematica label:before {
-      color: #F1CB40; }
+      color: #ffffff; }
+  .container_repertorio_cultural_teoria.linguagens {
+    background-color: #cfe188; }
+    .container_repertorio_cultural_teoria.linguagens label:before {
+      color: #ffffff; }
+  .container_repertorio_cultural_teoria.ciencias_natureza {
+    background-color: #fdc78d; }
+    .container_repertorio_cultural_teoria.ciencias_natureza label:before {
+      color: #ffffff; }
+  .container_repertorio_cultural_teoria.ciencias_humanas {
+    background-color: #b2ddcb; }
+    .container_repertorio_cultural_teoria.ciencias_humanas label:before {
+      color: #ffffff; }
   .container_repertorio_cultural_teoria.producao_de_texto {
     background-color: #ECF0A6; }
     .container_repertorio_cultural_teoria.producao_de_texto label:before {
@@ -12688,11 +12702,12 @@ blockquote {
   transition: all 0.3;
   background-color: #ECF0A6;
   border-radius: 8px;
+  border: 1px solid #ffffff;
   /* media query */ }
   .container_saiba_mais_exercicios input[type=checkbox] {
     display: none; }
   .container_saiba_mais_exercicios input[type=checkbox]:checked ~ label {
-    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+    background: url(img/icons8-minus-close_white.png) left 5px top 11px no-repeat; }
   .container_saiba_mais_exercicios input[type=checkbox]:checked ~ .txt_boxe_collapsed {
     display: block;
     transition: all 0.25s ease-out; }
@@ -12702,7 +12717,7 @@ blockquote {
   .container_saiba_mais_exercicios label {
     width: 100%;
     height: 40px;
-    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    background: url(img/icons8-plus-open_white.png) left 5px top 11px no-repeat;
     position: relative;
     background-size: 18px !important;
     display: block;
@@ -12710,9 +12725,9 @@ blockquote {
     .container_saiba_mais_exercicios label:before {
       content: 'SAIBA MAIS';
       font-family: "nunito sans";
-      font-size: 14px;
+      font-size: 1rem;
       font-weight: 900;
-      color: #62883b;
+      color: #ffffff;
       position: absolute;
       left: 28px;
       top: 10px; }
@@ -12721,7 +12736,8 @@ blockquote {
     display: none;
     padding-inline-start: 16px; }
   .container_saiba_mais_exercicios .txt_boxe_collapsed {
-    display: none; }
+    display: none;
+    margin-bottom: 15px; }
   .container_saiba_mais_exercicios .doc_container {
     position: relative;
     padding: 16px;
@@ -12751,17 +12767,29 @@ blockquote {
     .container_saiba_mais_exercicios.historia label:before {
       color: #8CCAAE; }
   .container_saiba_mais_exercicios.lingua_inglesa {
-    background-color: #ECF0A6; }
+    background-color: #cfe188; }
     .container_saiba_mais_exercicios.lingua_inglesa label:before {
-      color: #C8D300; }
+      color: #ffffff; }
   .container_saiba_mais_exercicios.lingua_portuguesa {
-    background-color: #ECF0A6; }
+    background-color: #cfe188; }
     .container_saiba_mais_exercicios.lingua_portuguesa label:before {
-      color: #84A214; }
+      color: #ffffff; }
   .container_saiba_mais_exercicios.matematica {
-    background-color: #FAEDBC; }
+    background-color: #f7d079; }
     .container_saiba_mais_exercicios.matematica label:before {
-      color: #F1CB40; }
+      color: #ffffff; }
+  .container_saiba_mais_exercicios.linguagens {
+    background-color: #cfe188; }
+    .container_saiba_mais_exercicios.linguagens label:before {
+      color: #ffffff; }
+  .container_saiba_mais_exercicios.ciencias_natureza {
+    background-color: #fdc78d; }
+    .container_saiba_mais_exercicios.ciencias_natureza label:before {
+      color: #ffffff; }
+  .container_saiba_mais_exercicios.ciencias_humanas {
+    background-color: #b2ddcb; }
+    .container_saiba_mais_exercicios.ciencias_humanas label:before {
+      color: #ffffff; }
   .container_saiba_mais_exercicios.producao_de_texto {
     background-color: #ECF0A6; }
     .container_saiba_mais_exercicios.producao_de_texto label:before {
@@ -15633,63 +15661,118 @@ blockquote {
 .css_06_boxe_titulo1 {
   font-size: 20px;
   margin-top: 16px;
-  color: #62883b;
-  font-family: "nunito sans", "900"; }
+  font-family: "nunito sans", "900";
+  color: #242717; }
+  .css_06_boxe_titulo1.artes {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.biologia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.filosofia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.fisica {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.geografia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.historia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo1.lingua_inglesa {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo1.lingua_portuguesa {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo1.matematica {
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo1.linguagens {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo1.ciencias_natureza {
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo1.ciencias_humanas {
+    color: #94a924 !important; }
 
 .css_06_boxe_titulo2 {
   display: block;
   text-align: left;
   font-size: 26px;
   font-family: "Prelo ExtraBold";
-  margin: 0px; }
+  margin: 0px;
+  color: #242717; }
   .css_06_boxe_titulo2.artes {
-    color: #C8D300 !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.biologia {
-    color: #F7A941 !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.filosofia {
-    color: #208F6D !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.fisica {
-    color: #BD8432 !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.geografia {
-    color: #208F6D !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.historia {
-    color: #208F6D !important; }
+    color: #242717 !important; }
   .css_06_boxe_titulo2.lingua_inglesa {
-    color: #84A214 !important; }
+    color: #94a924 !important; }
   .css_06_boxe_titulo2.lingua_portuguesa {
-    color: #84A214 !important; }
+    color: #94a924 !important; }
   .css_06_boxe_titulo2.matematica {
-    color: #C09100 !important; }
-  .css_06_boxe_titulo2.producao_de_texto {
-    color: #84A214 !important; }
-  .css_06_boxe_titulo2.quimica {
-    color: #BD8432 !important; }
-  .css_06_boxe_titulo2.sociologia {
-    color: #208F6D !important; }
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo2.linguagens {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo2.ciencias_natureza {
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo2.ciencias_humanas {
+    color: #94a924 !important; }
 
 .css_06_boxe_titulo3 {
   display: block;
   text-align: left;
   font-size: 24px;
-  color: #ffffff;
-  margin-top: 24px; }
+  margin-top: 24px;
+  font-family: "Prelo ExtraBold"; }
+  .css_06_boxe_titulo3.artes {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.biologia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.filosofia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.fisica {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.geografia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.historia {
+    color: #242717 !important; }
+  .css_06_boxe_titulo3.lingua_inglesa {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo3.lingua_portuguesa {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo3.matematica {
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo3.linguagens {
+    color: #94a924 !important; }
+  .css_06_boxe_titulo3.ciencias_natureza {
+    color: #b76e11 !important; }
+  .css_06_boxe_titulo3.ciencias_humanas {
+    color: #94a924 !important; }
 
 .css_06_boxe_texto1 {
   display: block;
   font-size: 16px;
-  color: #62883b;
+  color: #242717;
   font-family: 'Noticia Text';
   font-weight: 400;
   margin-top: 16px;
   line-height: 1.5em; }
   .css_06_boxe_texto1.artes {
-    color: #62883b; }
+    color: #242717; }
   .css_06_boxe_texto1.lingua_inglesa {
-    color: #62883b; }
+    color: #242717 !important; }
   .css_06_boxe_texto1.lingua_portuguesa {
-    color: #62883b; }
+    color: #242717 !important; }
   .css_06_boxe_texto1.matematica {
-    color: #C09100; }
+    color: #242717 !important; }
+  .css_06_boxe_texto1.linguagens {
+    color: #242717 !important; }
+  .css_06_boxe_texto1.ciencias_natureza {
+    color: #242717 !important; }
+  .css_06_boxe_texto1.ciencias_humanas {
+    color: #242717 !important; }
 
 .css_06_boxe_texto2 {
   display: block;
@@ -19544,10 +19627,24 @@ label img {
   display: block;
   font-family: 'Noticia Text';
   font-weight: 400;
-  color: #62883b;
+  color: #242717;
   line-height: 1.5em;
   font-size: 16px;
   margin: 0px 0px 0px 0px; }
+  .css_06_boxe_bullet.artes {
+    color: #242717; }
+  .css_06_boxe_bullet.lingua_inglesa {
+    color: #242717; }
+  .css_06_boxe_bullet.lingua_portuguesa {
+    color: #242717; }
+  .css_06_boxe_bullet.matematica {
+    color: #242717; }
+  .css_06_boxe_bullet.linguagens {
+    color: #242717; }
+  .css_06_boxe_bullet.ciencias_natureza {
+    color: #242717; }
+  .css_06_boxe_bullet.ciencias_humanas {
+    color: #242717; }
   .css_06_boxe_bullet ul {
     list-style-type: disc;
     margin: 0px; }
@@ -19632,20 +19729,26 @@ label img {
 
 .css_06_boxe_texto_citado_saiba_mais {
   display: block;
-  font-size: 15px;
-  color: #62883b;
+  font-size: 0.9rem;
+  color: #242717 !important;
   font-family: 'Montserrat';
   font-weight: 400;
   margin-top: 16px;
   padding: 0 0px; }
   .css_06_boxe_texto_citado_saiba_mais.artes {
-    color: #62883b; }
+    color: #242717 !important; }
   .css_06_boxe_texto_citado_saiba_mais.lingua_inglesa {
-    color: #62883b; }
+    color: #242717 !important; }
   .css_06_boxe_texto_citado_saiba_mais.lingua_portuguesa {
-    color: #62883b; }
+    color: #242717 !important; }
   .css_06_boxe_texto_citado_saiba_mais.matematica {
-    color: #C09100; }
+    color: #242717 !important; }
+  .css_06_boxe_texto_citado_saiba_mais.linguagens {
+    color: #242717 !important; }
+  .css_06_boxe_texto_citado_saiba_mais.ciencias_natureza {
+    color: #242717 !important; }
+  .css_06_boxe_texto_citado_saiba_mais.ciencias_humanas {
+    color: #242717 !important; }
 
 .css_06_boxe_subtitulo_citado_saiba_mais {
   display: block;

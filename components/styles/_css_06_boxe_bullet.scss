@@ -2,10 +2,31 @@
   display: block;
   font-family: 'Noticia Text';
   font-weight: 400;
-  color: $seg_lin_cor2;
+  color: $textColor3;
   line-height: 1.5em;
   font-size: 16px;
   margin: 0px 0px 0px 0px;
+  &.artes {
+    color: $textColor3;
+  }
+  &.lingua_inglesa {
+    color: $textColor3;
+  }
+  &.lingua_portuguesa {
+    color: $textColor3;
+  }
+  &.matematica {
+    color: $textColor3;
+  }
+  &.linguagens {
+    color: $textColor3;
+  }
+  &.ciencias_natureza {
+    color: $textColor3;
+  }
+  &.ciencias_humanas {
+    color: $textColor3;
+  }
   
   ul {
     list-style-type: disc;

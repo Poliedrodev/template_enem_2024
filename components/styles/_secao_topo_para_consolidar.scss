@@ -1,5 +1,5 @@
 .secao_topo_para_consolidar {
-  height: 32px;
+  height: 29px;
   width: 94%;
   margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
@@ -85,6 +85,69 @@
 
     .icone_disciplina_consolidar_topo {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_consolidar.svg");
+      width: 32px;
+      height: 32px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -10px;
+      top: -1px;
+    }
+
+  }
+
+  &.linguagens {
+    color: $ling_cor1;
+    background-color: $seg_lin_cor7;
+    border-right: 3px solid $ling_cor1;
+
+    .icone_disciplina_consolidar_topo {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
+      width: 32px;
+      height: 32px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -10px;
+      top: -1px;
+    }
+
+  }
+
+  &.ciencias_natureza {
+    color: $cnz_cor1;
+    background-color: $seg_cnz_cor1;
+    border-right: 3px solid $cnz_cor1;
+
+    .icone_disciplina_consolidar_topo {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
+      width: 32px;
+      height: 32px;
+      align-items: left;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -10px;
+      top: -1px;
+    }
+
+  }
+
+  &.ciencias_humanas {
+    color: $cnh_cor2;
+    background-color: $seg_cnh_cor1;
+    border-right: 3px solid $cnh_cor1;
+
+    .icone_disciplina_consolidar_topo {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
       width: 32px;
       height: 32px;
       align-items: left;

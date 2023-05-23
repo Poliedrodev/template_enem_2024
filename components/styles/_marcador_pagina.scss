@@ -1,9 +1,9 @@
 .marcador_pagina {
   padding: 0px;
-  margin-top: 48px 0px 0px;
+  margin: 16px 0px 16px;
   clear: both;
-  display: block;
-  float:left;
+  display: flex;
+  justify-content: flex-end;
   &::after {
       content: '';
       display: block;
@@ -11,20 +11,20 @@
   }
 
   &.leftDe{
-    float: left;
+    justify-content: flex-start;
+
+    .text-read2{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-right: 1px solid #dddddd;
+        border-left: none;
+    }
   }
 
   &.rightDe{
-    float: right;
-
-    .text-read2{
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-right: none;
-        border-left: 1px solid #dddddd;
-    }
+    justify-content: flex-end;
 
   }
 
@@ -37,10 +37,11 @@
     font-family: montserrat;
     font-weight: 700;
     background-color: #f4f4f4;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     border-top: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: none;
     border-bottom: 1px solid #dddddd;
   }
   > * {

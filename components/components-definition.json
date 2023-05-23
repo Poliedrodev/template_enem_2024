@@ -7757,6 +7757,33 @@
               }
             },
             "value": "matematica"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "linguagens"
+              }
+            },
+            "value": "linguagens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "ciencias_natureza"
+              }
+            },
+            "value": "ciencias_natureza"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "ciencias_humanas"
+              }
+            },
+            "value": "ciencias_humanas"
           }
         ]
       },

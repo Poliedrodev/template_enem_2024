@@ -18,11 +18,23 @@
   }
 
   &.lingua_portuguesa {
-    border: solid 2px $por_cor1  !important;
+    border: solid 2px $seg_lin_cor1  !important;
   }
 
   &.matematica {
     border: solid 2px $seg_mat_cor1  !important;
+  }
+
+  &.linguagens {
+    border: solid 2px $ling_cor3  !important;
+  }
+
+  &.ciencias_natureza {
+    border: solid 2px $cnz_cor2  !important;
+  }
+
+  &.ciencias_humanas {
+    border: solid 2px $cnh_cor2  !important;
   }
 
 }

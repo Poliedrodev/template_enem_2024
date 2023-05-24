@@ -1211,9 +1211,15 @@ span[style="text-decoration: line-through;"] {
   .image_lumen_mais.lingua_portuguesa .slider-subtitle::before {
     background-color: #bfd730; }
   .image_lumen_mais.lingua_inglesa .slider-subtitle::before {
-    background-color: #bfd730; }
+    background-color: #069891; }
   .image_lumen_mais.matematica .slider-subtitle::before {
     background-color: #F1CB40; }
+  .image_lumen_mais.linguagens .slider-subtitle::before {
+    background-color: #b2d234; }
+  .image_lumen_mais.ciencias_natureza .slider-subtitle::before {
+    background-color: #216e30; }
+  .image_lumen_mais.ciencias_humanas .slider-subtitle::before {
+    background-color: #9e270e; }
   .image_lumen_mais._left {
     margin-left: 0px; }
   .image_lumen_mais._right {
@@ -14453,9 +14459,15 @@ blockquote {
   .css_02_texto_glossario_titulo.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_titulo.lingua_portuguesa {
-    border: solid 2px #c9252c !important; }
+    border: solid 2px #bfd730 !important; }
   .css_02_texto_glossario_titulo.matematica {
     border: solid 2px #F1CB40 !important; }
+  .css_02_texto_glossario_titulo.linguagens {
+    border: solid 2px #b2d234 !important; }
+  .css_02_texto_glossario_titulo.ciencias_natureza {
+    border: solid 2px #216e30 !important; }
+  .css_02_texto_glossario_titulo.ciencias_humanas {
+    border: solid 2px #9e270e !important; }
 
 .css_02_texto_glossario {
   font-family: 'Noticia Text';
@@ -14473,9 +14485,15 @@ blockquote {
   .css_02_texto_glossario.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario.lingua_portuguesa {
-    border: solid 2px #c9252c !important; }
+    border: solid 2px #bfd730 !important; }
   .css_02_texto_glossario.matematica {
     border: solid 2px #F1CB40 !important; }
+  .css_02_texto_glossario.linguagens {
+    border: solid 2px #b2d234 !important; }
+  .css_02_texto_glossario.ciencias_natureza {
+    border: solid 2px #216e30 !important; }
+  .css_02_texto_glossario.ciencias_humanas {
+    border: solid 2px #9e270e !important; }
 
 .css_02_texto_glossario_boxe {
   font-family: 'Noticia Text';
@@ -14492,9 +14510,15 @@ blockquote {
   .css_02_texto_glossario_boxe.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_boxe.lingua_portuguesa {
-    border: solid 2px #c9252c !important; }
+    border: solid 2px #bfd730 !important; }
   .css_02_texto_glossario_boxe.matematica {
     border: solid 2px #F1CB40 !important; }
+  .css_02_texto_glossario_boxe.linguagens {
+    border: solid 2px #b2d234 !important; }
+  .css_02_texto_glossario_boxe.ciencias_natureza {
+    border: solid 2px #216e30 !important; }
+  .css_02_texto_glossario_boxe.ciencias_humanas {
+    border: solid 2px #9e270e !important; }
 
 .css_02_texto_glossario_citado {
   font-family: 'Noticia Text';
@@ -14511,9 +14535,15 @@ blockquote {
   .css_02_texto_glossario_citado.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_citado.lingua_portuguesa {
-    border: solid 2px #c9252c !important; }
+    border: solid 2px #bfd730 !important; }
   .css_02_texto_glossario_citado.matematica {
     border: solid 2px #F1CB40 !important; }
+  .css_02_texto_glossario_citado.linguagens {
+    border: solid 2px #b2d234 !important; }
+  .css_02_texto_glossario_citado.ciencias_natureza {
+    border: solid 2px #216e30 !important; }
+  .css_02_texto_glossario_citado.ciencias_humanas {
+    border: solid 2px #9e270e !important; }
 
 .css_02_texto_vocabulario {
   display: block;

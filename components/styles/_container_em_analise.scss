@@ -7,8 +7,19 @@
       content: '';
       display: block;
       clear: both;
-      border-bottom: 2px solid $por_cor2;
       margin-top: 16px;
+  }
+
+  &.open {
+    &::after {
+        border-bottom: none;
+    }
+  }
+
+  &.close {
+    &::after {
+        border-bottom: 2px solid $por_cor2;
+    }
   }
 
   .text-read2{
@@ -60,9 +71,11 @@
     border: solid 2px $art_cor1 !important;
   }
   &.lingua_inglesa {
-    &::after {
-        border-top: 2px solid $ing_cor3;
-        border-bottom: 2px solid $ing_cor1;
+    &.close {
+        &::after {
+            border-top: 2px solid $ing_cor3;
+            border-bottom: 2px solid $ing_cor1;
+        }
     }
     .line3{
         background-color: $ing_cor1;
@@ -78,9 +91,11 @@
     }
   }
   &.lingua_portuguesa {
-    &::after {
-        border-top: 3px solid $por_cor3;
-        border-bottom: 2px solid $por_cor2;
+    &.close {
+        &::after {
+            border-top: 3px solid $por_cor3;
+            border-bottom: 2px solid $por_cor2;
+        }
     }
     .line3{
         background-color: $por_cor2;
@@ -96,9 +111,11 @@
   }
 
   &.matematica {
-    &::after {
-        border-top: 3px solid $mat_cor3;
-        border-bottom: 2px solid $mat_cor1;
+    &.close {
+        &::after {
+            border-top: 3px solid $mat_cor3;
+            border-bottom: 2px solid $mat_cor1;
+        }
     }
     .line3{
         background-color: $mat_cor1;
@@ -115,9 +132,11 @@
   }
 
   &.linguagens {
-    &::after {
-        border-top: 3px solid $seg_lin_cor5;
-        border-bottom: 2px solid $ling_cor1;
+    &.close {
+        &::after {
+            border-top: 3px solid $seg_lin_cor5;
+            border-bottom: 2px solid $ling_cor1;
+        }
     }
     .line3{
         background-color: $ling_cor1;
@@ -134,9 +153,11 @@
   }
 
   &.ciencias_natureza {
-    &::after {
-        border-top: 3px solid $seg_cnz_cor3;
-        border-bottom: 2px solid $cnz_cor1;
+    &.close {
+        &::after {
+            border-top: 3px solid $seg_cnz_cor3;
+            border-bottom: 2px solid $cnz_cor1;
+        }
     }
     .line3{
         background-color: $cnz_cor1;
@@ -153,9 +174,11 @@
   }
 
   &.ciencias_humanas {
-    &::after {
-        border-top: 3px solid $seg_cnh_cor1;
-        border-bottom: 2px solid $cnh_cor1;
+    &.close {
+        &::after {
+            border-top: 3px solid $seg_cnh_cor1;
+            border-bottom: 2px solid $cnh_cor1;
+        }
     }
     .line3{
         background-color: $cnh_cor1;

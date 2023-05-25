@@ -7,9 +7,20 @@
       content: '';
       display: block;
       clear: both;
+      margin-top: 16px;
+  }
+
+  &.open {
+    &::after {
+        border-bottom: none;
+    }
+  }
+
+  &.close {
+    &::after {
       border-top: 3px solid $ing_cor3;
       border-bottom: 2px solid $ing_cor1;
-      margin-top: 16px;
+    }
   }
 
   .text-read2{

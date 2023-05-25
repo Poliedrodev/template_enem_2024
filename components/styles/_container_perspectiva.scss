@@ -9,8 +9,19 @@
         content: '';
         display: block;
         clear: both;
-        border-bottom: 2px solid $seg_cnh_cor3;
         margin-top: 16px;
+    }
+
+    &.open {
+      &::after {
+          border-bottom: none;
+      }
+    }
+  
+    &.close {
+      &::after {
+        border-bottom: 2px solid $seg_cnh_cor3;
+      }
     }
 
     .text-read {
@@ -35,7 +46,6 @@
 
     .lines {
         margin-bottom: 0;
-        border: 3px solid $cnh_cor1;
         display: block;
         width: 70px;
         position: absolute;
@@ -71,9 +81,15 @@
     }
 
     &.lingua_portuguesa {
+      &.close {
         &::after {
             border-bottom: 2px solid $por_cor3;
         }
+        
+        .lines {
+          border: 3px solid $por_cor1;
+        }
+      }
 
         .text-read {
             border-top: solid 2px $por_cor3;
@@ -85,15 +101,19 @@
             background-color: $por_cor3;
         }
 
-        .lines {
-          border: 3px solid $por_cor1;
-        }
+        
     }
 
     &.matematica {
+      &.close {
         &::after {
           border-bottom: 2px solid $mat_cor3;
         }
+    
+        .lines {
+          border: 3px solid $mat_cor2;
+        }
+      }
     
         .text-read {
           border-top: solid 2px $mat_cor3;
@@ -105,16 +125,18 @@
         .line1 {
           background-color: $mat_cor3;
         }
-    
-        .lines {
-          border: 3px solid $mat_cor2;
-        }
     }
 
     &.linguagens {
+      &.close {
         &::after {
           border-bottom: 2px solid $seg_lin_cor6;
         }
+    
+        .lines {
+          border: 3px solid $ling_cor1;
+        }
+      }
     
         .text-read {
           border-top: solid 2px $seg_lin_cor6;
@@ -126,15 +148,17 @@
         .line1 {
           background-color: $seg_lin_cor6;
         }
-    
-        .lines {
-          border: 3px solid $ling_cor1;
-        }
       }
     
       &.ciencias_natureza {
-        &::after {
-          border-bottom: 2px solid $seg_cnz_cor3;
+        &.close {
+          &::after {
+            border-bottom: 2px solid $seg_cnz_cor3;
+          }
+    
+          .lines {
+            border: 3px solid $cnz_cor2;
+          }
         }
     
         .text-read {
@@ -147,15 +171,17 @@
         .line1 {
           background-color: $seg_cnz_cor3;
         }
-    
-        .lines {
-          border: 3px solid $cnz_cor2;
-        }
       }
     
       &.ciencias_humanas {
-        &::after {
-          border-bottom: 2px solid $seg_cnh_cor3;
+        &.close {
+          &::after {
+            border-bottom: 2px solid $seg_cnh_cor3;
+          }
+    
+          .lines {
+            border: 3px solid $cnh_cor1;
+          }
         }
     
         .text-read {
@@ -167,10 +193,6 @@
     
         .line1 {
           background-color: $seg_cnh_cor3;
-        }
-    
-        .lines {
-          border: 3px solid $cnh_cor1;
         }
       }
 

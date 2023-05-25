@@ -8,8 +8,19 @@
     content: '';
     display: block;
     clear: both;
-    border-bottom: 2px solid $mat_cor3;
     margin-top: 16px;
+  }
+
+  &.open {
+    &::after {
+        border-bottom: none;
+    }
+  }
+
+  &.close {
+    &::after {
+        border-bottom: 2px solid $mat_cor3;
+    }
   }
 
   .text-read {
@@ -33,7 +44,6 @@
 
   .lines {
     margin-bottom: 0;
-    border: 3px solid $mat_cor2;
     display: block;
     width: 70px;
     position: absolute;
@@ -72,9 +82,14 @@
       }
   }
   &.matematica {
-      &::after {
-        border-bottom: 2px solid $mat_cor3;
-      }
+    &.close {
+        &::after {
+            border-bottom: 2px solid $mat_cor3;
+        }
+        .lines{
+          border: 3px solid $mat_cor2;
+        }
+    }
       .text-read{
           border-top: solid 2px $mat_cor3;
           border-left: solid 6px $mat_cor2;
@@ -82,9 +97,6 @@
       }
       .line1{
           background-color: $mat_cor3;
-      }
-      .lines{
-        border: 3px solid $mat_cor2;
       }
   }
 

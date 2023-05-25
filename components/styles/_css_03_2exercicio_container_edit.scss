@@ -78,7 +78,6 @@
 
       .number_exercicio {
         color: #64428C;
-        border-bottom: solid 3px #bfd730;
       }
 
     }
@@ -89,8 +88,7 @@
       font-weight: 700;
 
       .number_exercicio {
-        color: #069891;
-        border-bottom: solid 3px #bfd730;
+        color: $ing_cor1;
       }
     }
     .btn_alin2{
@@ -105,8 +103,7 @@
       font-weight: 700;
 
       .number_exercicio {
-        color: #c9252c;
-        border-bottom: solid 3px #bfd730;
+        color: $por_cor2;
       }
     }
   }
@@ -116,8 +113,37 @@
       font-weight: 700;
 
       .number_exercicio {
-        color: #1961AC;
-        border-bottom: solid 3px #F1CB40;
+        color: $mat_cor2;
+      }
+    }
+  }
+
+  &.linguagens {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: $ling_cor3;
+      }
+    }
+  }
+
+  &.ciencias_natureza {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: $cnz_cor2;
+      }
+    }
+  }
+
+  &.ciencias_humanas {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: $cnh_cor2;
       }
     }
   }

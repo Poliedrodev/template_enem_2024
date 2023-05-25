@@ -9,9 +9,20 @@
         content: '';
         display: block;
         clear: both;
-        border-bottom: 2px solid $ing_cor3;
         margin-top: 16px;
     }
+
+    &.open {
+        &::after {
+            border-bottom: none;
+        }
+      }
+    
+      &.close {
+        &::after {
+            border-bottom: 2px solid $ing_cor3;
+        }
+      }
 
     .text-read {
         border-top: solid 2px $ing_cor3;
@@ -35,7 +46,6 @@
 
     .lines {
         margin-bottom: 0;
-        border: 3px solid $ing_cor1;
         display: block;
         width: 70px;
         position: absolute;
@@ -58,8 +68,14 @@
     }
 
     &.lingua_inglesa {
-        &::after {
-          border-bottom: 2px solid $ing_cor3;
+        &.close {
+            &::after {
+            border-bottom: 2px solid $ing_cor3;
+            }
+    
+            .lines {
+              border: 3px solid $ing_cor1;
+            }
         }
     
         .text-read {
@@ -71,10 +87,6 @@
     
         .line1 {
           background-color: $ing_cor3;
-        }
-    
-        .lines {
-          border: 3px solid $ing_cor1;
         }
     }
 

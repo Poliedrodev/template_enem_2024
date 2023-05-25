@@ -1397,7 +1397,7 @@
     {
       "name": "quebra_pagina",
       "icon": "icons/components/separator.svg",
-      "label": "Quebra de página",
+      "label": "Quebra de Seção",
       "properties": [
         "number_section",
         "style"
@@ -1512,7 +1512,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1523,7 +1524,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },    
     {
@@ -1534,7 +1536,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1775,7 +1778,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },    
     {
@@ -1786,7 +1790,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1821,7 +1826,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1843,7 +1849,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },    
     {
@@ -1865,7 +1872,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1876,7 +1884,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1887,7 +1896,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1898,7 +1908,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1909,7 +1920,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -1953,7 +1965,8 @@
         "style",
         "text-align",
         "letter-spacing",
-        "line-height"
+        "line-height",
+        "open-close"
       ]
     },
     {
@@ -7590,6 +7603,44 @@
               }
             },
             "value": "dificil"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+    
+
+    {
+      "name": "open-close",
+      "label": {
+        "key": "Aberto ou Fechado"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Aberto"
+              }
+            },
+            "value": "open"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Fechado"
+              }
+            },
+            "value": "close"
           }
         ]
       },

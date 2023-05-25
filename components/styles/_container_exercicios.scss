@@ -7,7 +7,19 @@
       content: '';
       display: block;
       clear: both;
-      border-bottom: 2px solid $seg_ing_cor3;
+      margin-top: 16px;
+  }
+
+  &.open {
+    &::after {
+        border-bottom: none;
+    }
+  }
+
+  &.close {
+    &::after {
+        border-bottom: 2px solid #C8D300;
+    }
   }
 
   .text-read1{
@@ -46,8 +58,10 @@
     
   }
   &.lingua_inglesa {
-    &::after {
-      border-bottom: 2px solid $seg_ing_cor3;
+    &.close {
+      &::after {
+          border-bottom: 2px solid $seg_ing_cor3;
+      }
     }
     .text-read1{
       border: solid 2px $seg_ing_cor3;
@@ -65,8 +79,10 @@
     }
   }
   &.lingua_portuguesa {
-    &::after {
-      border-bottom: 2px solid $seg_ing_cor3;
+    &.close {
+      &::after {
+        border-bottom: 2px solid $seg_ing_cor3;
+      }
     }
     .text-read1{
       border: solid 2px $seg_ing_cor3;
@@ -84,8 +100,10 @@
     }
   }
   &.matematica {
-    &::after {
-      border-bottom: 2px solid $seg_mat_cor2;
+    &.close {
+      &::after {
+        border-bottom: 2px solid $seg_mat_cor2;
+      }
     }
     .text-read1{
       border: solid 2px $seg_mat_cor2;
@@ -103,9 +121,11 @@
     }
   }
   &.linguagens {
-    &::after {
-      border-bottom: 2px solid $seg_ing_cor3;
-    }  
+    &.close {
+      &::after {
+        border-bottom: 2px solid $seg_ing_cor3;
+      }
+    }
     .text-read1{
       border: solid 2px $seg_ing_cor3;
       border-bottom: none;
@@ -122,8 +142,10 @@
     }
   }
   &.ciencias_natureza {
-    &::after {
-      border-bottom: 2px solid $cnz_cor4;
+    &.close {
+      &::after {
+        border-bottom: 2px solid $cnz_cor4;
+      }
     }
     .text-read1{
       border: solid 2px $cnz_cor4;
@@ -141,8 +163,10 @@
     }
   }
   &.ciencias_humanas {
-    &::after {
-      border-bottom: 2px solid $cnh_cor4;
+    &.close {
+      &::after {
+        border-bottom: 2px solid $cnh_cor4;
+      }
     }
     .text-read1{
       border: solid 2px $cnh_cor4;

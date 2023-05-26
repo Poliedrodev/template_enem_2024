@@ -42,7 +42,7 @@ h4 {
 .body-book {
   padding: 0;
   margin: 0;
-  font: 14px "noticia text", "arial";
+  font: 14px "Montserrat", "arial", sans-serif;
   color: #000000;
   background-color: #ffffff;
   font-weight: 300;
@@ -2047,9 +2047,9 @@ span[style="text-decoration: line-through;"] {
     color: #000000;
     margin-top: 4px;
     margin-bottom: 2px;
-    font-size: 16px;
+    font-size: 0.7rem;
     color: #000000;
-    font-family: "Proxima Nova Lt" !important; }
+    font-family: "noticia text", "400"; }
   .hero_tirinha .image_lumen_mais._caption-inside > figcaption, .hero_tirinha .image_lumen_mais._caption-top > figcaption, .hero_tirinha .image_lumen_mais._caption-top-left > figcaption, .hero_tirinha .image_lumen_mais._caption-top-right > figcaption, .hero_tirinha .image_lumen_mais._caption-bottom-left > figcaption, .hero_tirinha .image_lumen_mais._caption-bottom-right > figcaption, .hero_tirinha .image_cont_exercicios._caption-inside > figcaption, .hero_tirinha .image_cont_exercicios._caption-top > figcaption, .hero_tirinha .image_cont_exercicios._caption-top-left > figcaption, .hero_tirinha .image_cont_exercicios._caption-top-right > figcaption, .hero_tirinha .image_cont_exercicios._caption-bottom-left > figcaption, .hero_tirinha .image_cont_exercicios._caption-bottom-right > figcaption, .hero_tirinha .image_teoria._caption-inside > figcaption, .hero_tirinha .image_teoria._caption-top > figcaption, .hero_tirinha .image_teoria._caption-top-left > figcaption, .hero_tirinha .image_teoria._caption-top-right > figcaption, .hero_tirinha .image_teoria._caption-bottom-left > figcaption, .hero_tirinha .image_teoria._caption-bottom-right > figcaption, .hero_tirinha .image_saiba_mais._caption-inside > figcaption, .hero_tirinha .image_saiba_mais._caption-top > figcaption, .hero_tirinha .image_saiba_mais._caption-top-left > figcaption, .hero_tirinha .image_saiba_mais._caption-top-right > figcaption, .hero_tirinha .image_saiba_mais._caption-bottom-left > figcaption, .hero_tirinha .image_saiba_mais._caption-bottom-right > figcaption, .hero_tirinha .image_exercicio._caption-inside > figcaption, .hero_tirinha .image_exercicio._caption-top > figcaption, .hero_tirinha .image_exercicio._caption-top-left > figcaption, .hero_tirinha .image_exercicio._caption-top-right > figcaption, .hero_tirinha .image_exercicio._caption-bottom-left > figcaption, .hero_tirinha .image_exercicio._caption-bottom-right > figcaption, .hero_tirinha._caption-inside > figcaption, .hero_tirinha._caption-top > figcaption, .hero_tirinha._caption-top-left > figcaption, .hero_tirinha._caption-top-right > figcaption, .hero_tirinha._caption-bottom-left > figcaption, .hero_tirinha._caption-bottom-right > figcaption, .hero_tirinha .imagem_sem_margem._caption-inside > figcaption, .hero_tirinha .imagem_sem_margem._caption-top > figcaption, .hero_tirinha .imagem_sem_margem._caption-top-left > figcaption, .hero_tirinha .imagem_sem_margem._caption-top-right > figcaption, .hero_tirinha .imagem_sem_margem._caption-bottom-left > figcaption, .hero_tirinha .imagem_sem_margem._caption-bottom-right > figcaption, .hero_tirinha .imagem_inline._caption-inside > figcaption, .hero_tirinha .imagem_inline._caption-top > figcaption, .hero_tirinha .imagem_inline._caption-top-left > figcaption, .hero_tirinha .imagem_inline._caption-top-right > figcaption, .hero_tirinha .imagem_inline._caption-bottom-left > figcaption, .hero_tirinha .imagem_inline._caption-bottom-right > figcaption, .hero_tirinha .imagem_centralizada._caption-inside > figcaption, .hero_tirinha .imagem_centralizada._caption-top > figcaption, .hero_tirinha .imagem_centralizada._caption-top-left > figcaption, .hero_tirinha .imagem_centralizada._caption-top-right > figcaption, .hero_tirinha .imagem_centralizada._caption-bottom-left > figcaption, .hero_tirinha .imagem_centralizada._caption-bottom-right > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-inside > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-top > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-top-left > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-top-right > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-bottom-left > figcaption, .hero_tirinha .imagem_centralizada_tamanho1._caption-bottom-right > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-inside > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-top > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-top-left > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-top-right > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-bottom-left > figcaption, .hero_tirinha .imagem_centralizada_tamanho2._caption-bottom-right > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-inside > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-top > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-top-left > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-top-right > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-bottom-left > figcaption, .hero_tirinha .imagem_coluna_falsa._caption-bottom-right > figcaption, .hero_tirinha .imagem_meia_coluna._caption-inside > figcaption, .hero_tirinha .imagem_meia_coluna._caption-top > figcaption, .hero_tirinha .imagem_meia_coluna._caption-top-left > figcaption, .hero_tirinha .imagem_meia_coluna._caption-top-right > figcaption, .hero_tirinha .imagem_meia_coluna._caption-bottom-left > figcaption, .hero_tirinha .imagem_meia_coluna._caption-bottom-right > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-inside > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-top > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-top-left > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-top-right > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-bottom-left > figcaption, .hero_tirinha .imagem_meia_coluna_container._caption-bottom-right > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-inside > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-top > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-top-left > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-top-right > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-bottom-left > figcaption, .hero_tirinha .imagem_meia_coluna_container_exercicios._caption-bottom-right > figcaption {
     position: absolute;
     padding: 8px 12px;
@@ -7043,7 +7043,7 @@ a {
 .soma_palavra {
   position: relative; }
   .soma_palavra::after {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     content: "Soma:";
@@ -10429,14 +10429,14 @@ blockquote {
     display: flex;
     align-items: center; }
   .box_flutuante .title {
-    display: flex;
-    align-items: center;
     font-size: 1.1rem;
     color: #000000;
     font-family: "Montserrat";
     font-weight: 700 !important;
     margin: 0px;
-    padding: 0px; }
+    padding: 0px;
+    min-width: 2px;
+    text-overflow: clip; }
   .box_flutuante > *:first-child {
     margin-top: 0; }
     .box_flutuante > *:first-child._left + ._right {
@@ -10505,6 +10505,115 @@ blockquote {
       width: 50%;
       z-index: 1; }
     .box_flutuante._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.box_pensamento {
+  width: 94%;
+  height: auto;
+  padding: 15px;
+  margin: 16px 16px 16px;
+  clear: both;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  float: left;
+  /* media query */ }
+  .box_pensamento::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .box_pensamento.leftDe {
+    float: left; }
+  .box_pensamento.rightDe {
+    float: right; }
+  .box_pensamento .material-symbols-outlined {
+    color: #000000; }
+  .box_pensamento .boxTitle {
+    display: flex;
+    align-items: center; }
+  .box_pensamento .title {
+    font-size: 1.1rem;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 700 !important;
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    min-width: 2px;
+    text-overflow: clip; }
+  .box_pensamento > *:first-child {
+    margin-top: 0; }
+    .box_pensamento > *:first-child._left + ._right {
+      margin-top: 0; }
+    .box_pensamento > *:first-child._right + ._left {
+      margin-top: 0; }
+  .box_pensamento > *:last-child {
+    margin-bottom: 0; }
+  .box_pensamento > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .box_pensamento > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .box_pensamento .content {
+    font-size: 0.8rem;
+    color: #333333;
+    margin: 8px 0 0 0;
+    line-height: 1.5em; }
+  .box_pensamento.artes {
+    border: solid 2px #64428C !important; }
+  .box_pensamento.lingua_inglesa {
+    border: 1px solid #cfe188;
+    background-color: #f4f8e8; }
+    .box_pensamento.lingua_inglesa .title {
+      color: #069891; }
+    .box_pensamento.lingua_inglesa .material-symbols-outlined {
+      color: #cfe188; }
+  .box_pensamento.lingua_portuguesa {
+    border: 1px solid #cfe188;
+    background-color: #f4f8e8; }
+    .box_pensamento.lingua_portuguesa .title {
+      color: #96171a; }
+    .box_pensamento.lingua_portuguesa .material-symbols-outlined {
+      color: #cfe188; }
+  .box_pensamento.matematica {
+    border: 1px solid #f7d079;
+    background-color: #fff3e7; }
+    .box_pensamento.matematica .title {
+      color: #1961AC; }
+    .box_pensamento.matematica .material-symbols-outlined {
+      color: #f7d079; }
+  .box_pensamento.linguagens {
+    border: 1px solid #cfe188;
+    background-color: #f4f8e8; }
+    .box_pensamento.linguagens .title {
+      color: #3b227a; }
+    .box_pensamento.linguagens .material-symbols-outlined {
+      color: #cfe188; }
+  .box_pensamento.ciencias_natureza {
+    border: 1px solid #f7d079;
+    background-color: #fff3e7; }
+    .box_pensamento.ciencias_natureza .title {
+      color: #216e30; }
+    .box_pensamento.ciencias_natureza .material-symbols-outlined {
+      color: #f7d079; }
+  .box_pensamento.ciencias_humanas {
+    border: 1px solid #b2ddcb;
+    background-color: #eff7f3; }
+    .box_pensamento.ciencias_humanas .title {
+      color: #9e270e; }
+    .box_pensamento.ciencias_humanas .material-symbols-outlined {
+      color: #b2ddcb; }
+  @media only screen and (min-width: 481px) {
+    .box_pensamento._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .box_pensamento._right {
       float: right;
       clear: right;
       width: 50%;
@@ -11564,7 +11673,7 @@ blockquote {
 } */ }
   .container_fica_a_dica_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 0.875rem;
     font-weight: 900; }
   .container_fica_a_dica_lumen_mais.artes {
@@ -11697,7 +11806,7 @@ blockquote {
   margin-top: 32px; }
   .container_repertorio_cultural_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 0.875rem;
     font-weight: 900; }
   .container_repertorio_cultural_lumen_mais.artes {
@@ -11998,7 +12107,7 @@ blockquote {
   margin-top: 32px; }
   .container_saiba_mais_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 0.875rem;
     font-weight: 900; }
   .container_saiba_mais_lumen_mais.artes {
@@ -14353,7 +14462,7 @@ blockquote {
   margin: 0px; }
 
 .css_02_texto_citado_titulo {
-  font-family: 'Noticia Text';
+  font-family: "noticia text", "400";
   font-weight: 700;
   color: #000000;
   line-height: 1.5em;
@@ -14362,7 +14471,7 @@ blockquote {
   margin: 16px 0px 0px 0px; }
 
 .css_02_texto_citado_titulo_2 {
-  font-family: 'Noticia Text';
+  font-family: "noticia text", "400";
   font-weight: 700;
   color: #000000;
   line-height: 1.5em;
@@ -14374,7 +14483,7 @@ blockquote {
   display: block;
   font-size: 16px;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "noticia text", "400";
   font-weight: 400;
   line-height: 1.5em;
   margin: 8px 0px 0px 0px; }
@@ -14424,7 +14533,7 @@ blockquote {
 .css_02_texto_citado_fonte {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-align: right;
@@ -14433,7 +14542,7 @@ blockquote {
 .css_02_texto_citado_fonte_2 {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-align: right;
@@ -14463,7 +14572,7 @@ blockquote {
   .css_02_texto_glossario_titulo.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_titulo.lingua_portuguesa {
-    border: solid 2px #96171a !important; }
+    border: solid 2px #c9252c !important; }
   .css_02_texto_glossario_titulo.matematica {
     border: solid 2px #F1CB40 !important; }
   .css_02_texto_glossario_titulo.linguagens {
@@ -14489,7 +14598,7 @@ blockquote {
   .css_02_texto_glossario.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario.lingua_portuguesa {
-    border: solid 2px #96171a !important; }
+    border: solid 2px #c9252c !important; }
   .css_02_texto_glossario.matematica {
     border: solid 2px #F1CB40 !important; }
   .css_02_texto_glossario.linguagens {
@@ -14514,7 +14623,7 @@ blockquote {
   .css_02_texto_glossario_boxe.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_boxe.lingua_portuguesa {
-    border: solid 2px #96171a !important; }
+    border: solid 2px #c9252c !important; }
   .css_02_texto_glossario_boxe.matematica {
     border: solid 2px #F1CB40 !important; }
   .css_02_texto_glossario_boxe.linguagens {
@@ -14539,7 +14648,7 @@ blockquote {
   .css_02_texto_glossario_citado.lingua_inglesa {
     border: solid 2px #069891 !important; }
   .css_02_texto_glossario_citado.lingua_portuguesa {
-    border: solid 2px #96171a !important; }
+    border: solid 2px #c9252c !important; }
   .css_02_texto_glossario_citado.matematica {
     border: solid 2px #F1CB40 !important; }
   .css_02_texto_glossario_citado.linguagens {
@@ -16170,7 +16279,7 @@ blockquote {
   margin-top: 32px; }
   .container_boxe_abertura .collapsible-title {
     margin: 0;
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 0.875rem;
     font-weight: 900; }
   .container_boxe_abertura.artes {
@@ -21811,7 +21920,7 @@ label img {
   transition: 0.8s; }
 
 .slider-subtitle {
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 500;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
@@ -21822,7 +21931,7 @@ label img {
   margin-bottom: 2px; }
 
 .slider-credit {
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   color: black;
@@ -23441,7 +23550,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23500,7 +23609,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23598,7 +23707,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .css_03_2exercicio_container_edit_sem_numero {
   margin-top: 31px;
   position: relative;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23638,7 +23747,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23648,7 +23757,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_alternativa .group_alternativa :first-child {
     margin-top: 0 !important; }
   .css_03_2exercicio_alternativa.item_romano_itens .css_03_2exercicio_alternativa_item::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -23662,7 +23771,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     counter-increment: list;
     content: counter(list, upper-roman) "."; }
   .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item::after {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -23670,7 +23779,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -32px;
     top: 0; }
   .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -23679,7 +23788,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_item {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23689,7 +23798,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_alternativa_item::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -23699,7 +23808,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_input_VF {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23710,7 +23819,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_input_VF .parentesis_VF {
     position: relative; }
     .css_03_2exercicio_input_VF .parentesis_VF::after {
-      font-family: "noticia text", "arial";
+      font-family: "Montserrat", "arial", sans-serif;
       font-size: 20px;
       font-weight: 600;
       content: "(";
@@ -23718,7 +23827,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       left: -3px;
       top: 0; }
     .css_03_2exercicio_input_VF .parentesis_VF::before {
-      font-family: "noticia text", "arial";
+      font-family: "Montserrat", "arial", sans-serif;
       font-size: 20px;
       font-weight: 600;
       content: ")";
@@ -23730,7 +23839,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   margin-top: 16px;
   display: grid;
   grid-template-columns: 36px 1fr;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23752,7 +23861,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_edit {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23763,7 +23872,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   margin-top: 16px;
   display: grid;
   gap: 8px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23775,14 +23884,14 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     margin-top: 0 !important; }
   .css_03_2exercicio_alternativa_item_edit .number_alternativa_edit {
     width: 36px;
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     position: absolute;
     left: -36px; }
 
 .css_03_2exercicio_alternativa_item_texto {
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23790,7 +23899,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_assinalar {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23800,7 +23909,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_assinalar_itens {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23811,7 +23920,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_alternativa_assinalar_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_2exercicio_alternativa_assinalar_itens::after {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -23819,7 +23928,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -32px;
     top: 0; }
   .css_03_2exercicio_alternativa_assinalar_itens::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -23827,7 +23936,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -16px; }
 
 .css_99_bancoquestao {
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #2a6fd6;
   line-height: 1.5em;
@@ -23857,7 +23966,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_continuacao {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23865,7 +23974,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_enunciado {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23873,7 +23982,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item_romano {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23883,7 +23992,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item_romano_itens {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23894,7 +24003,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_item_romano_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_2exercicio_item_romano_itens::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -23904,7 +24013,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -23914,7 +24023,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_itens {
   margin-top: 16px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -23925,7 +24034,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_2exercicio_itens::before {
-    font-family: "noticia text", "arial";
+    font-family: "Montserrat", "arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -23937,7 +24046,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   margin-top: 16px;
@@ -23947,7 +24056,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   margin-top: 16px;
@@ -23963,7 +24072,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_02_2texto_bullet_itens {
   font-size: 18px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   list-style: none;
@@ -23983,7 +24092,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_02_2texto_bullet_item_texto {
   font-size: 18px;
-  font-family: "noticia text", "arial";
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;

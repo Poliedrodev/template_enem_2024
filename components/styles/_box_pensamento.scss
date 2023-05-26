@@ -1,8 +1,8 @@
-.box_flutuante {
-  width: 150px;
+.box_pensamento {
+  width: 94%;
   height: auto;
   padding: 15px;
-  margin: 48px 16px 48px;
+  margin: 16px 16px 16px;
   clear: both;
   display: flex;
   justify-content: flex-start;
@@ -40,7 +40,7 @@
     font-family: "Montserrat";
     font-weight: 700 !important;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 5px;
     min-width: 2px;
     text-overflow: clip;
   }
@@ -84,63 +84,63 @@
     border: solid 2px $art_cor1 !important;
   }
   &.lingua_inglesa {
-    border: 1px solid $ing_cor2;
-    background-color: $ing_cor4;
+    border: 1px solid $seg_por_cor2;
+    background-color: $seg_ing_cor2;
     .title{
-      color: $ing_cor2;
+      color: $ing_cor1;
     }
     .material-symbols-outlined {
-      color: $ing_cor2;
+      color: $seg_por_cor2;
     }
   }
   &.lingua_portuguesa {
-    border: 1px solid $por_cor2;
-    background-color: $por_cor4;
+    border: 1px solid $seg_por_cor2;
+    background-color: $seg_ing_cor2;
     .title{
       color: $por_cor2;
     }
     .material-symbols-outlined {
-      color: $por_cor2;
+      color: $seg_por_cor2;
     }
   }
   &.matematica {
-    border: 1px solid $mat_cor2;
-    background-color: $mat_cor4;
+    border: 1px solid $seg_mat_cor6;
+    background-color: $seg_cnz_cor4;
     .title{
-      color: $mat_cor2;
+      color: $mat_cor1;
     }
     .material-symbols-outlined {
-      color: $mat_cor2;
+      color: $seg_mat_cor6;
     }
   }
   &.linguagens {
-    border: 1px solid $ling_cor2;
-    background-color: $art_cor4;
+    border: 1px solid $seg_por_cor2;
+    background-color: $seg_ing_cor2;
     .title{
       color: $ling_cor2;
     }
     .material-symbols-outlined {
-      color: $ling_cor2;
+      color: $seg_por_cor2;
     }
   }
   &.ciencias_natureza {
-    border: 1px solid $cnz_cor2;
-    background-color: $seg_cnz_cor1;    
+    border: 1px solid $seg_mat_cor6;
+    background-color: $seg_cnz_cor4;
     .title{
       color: $cnz_cor2;
     }
     .material-symbols-outlined {
-      color: $cnz_cor2;
+      color: $seg_mat_cor6;
     }
   }
   &.ciencias_humanas {
-    border: 1px solid $cnh_cor2;
-    background-color: $seg_cnh_cor1;
+    border: 1px solid $seg_cnh_cor4;
+    background-color: $seg_cnh_cor5;
     .title{
       color: $cnh_cor2;
     }
     .material-symbols-outlined {
-      color: $cnh_cor2;
+      color: $seg_cnh_cor4;
     }
   }
 

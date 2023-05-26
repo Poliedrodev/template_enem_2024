@@ -1817,6 +1817,17 @@
         "line-height",
         "alinhamento"
       ]
+    },  
+    {
+      "name": "box_pensamento",
+      "icon": "icons/components/container.svg",
+      "label": "Box Pensamento",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
     },
     {
       "name": "container_leitura_complementar",
@@ -7063,7 +7074,6 @@
         "container_boxe_abertura",
         "container_fica_a_dica_lumen_mais",
         "container_repertorio_cultural_lumen_mais",
-        "container_saiba_mais_lumen_mais",
         "container_slideshow_boxe",
         "container_coluna_falsa",
         "container_exercicios",
@@ -7368,7 +7378,8 @@
         "css_06_boxe_em_quimica",
         "css_06_boxe_em_sociologia",
         "css_06_boxe_fique_ligado",
-        "box_flutuante"
+        "box_flutuante",
+        "box_pensamento"
       ]
     },
     {

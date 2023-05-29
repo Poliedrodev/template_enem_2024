@@ -136,7 +136,12 @@
   &.lingua_inglesa {
     background-color: $seg_por_cor2;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }
@@ -147,7 +152,12 @@
   &.lingua_portuguesa {
     background-color: $seg_por_cor2;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }
@@ -158,7 +168,12 @@
   &.matematica {
     background-color: $seg_mat_cor6;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }
@@ -169,7 +184,12 @@
   &.linguagens {
     background-color: $seg_por_cor2;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }
@@ -180,7 +200,12 @@
   &.ciencias_natureza {
     background-color: $seg_cnz_cor5;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }
@@ -191,7 +216,12 @@
   &.ciencias_humanas {
     background-color: $seg_cnh_cor4;
 
+    input[type=checkbox]:checked~label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat;
+    }
+
     label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat;
       &:before {
         color: $teoria;
       }

@@ -8289,28 +8289,52 @@ blockquote {
       color: #C8D300; }
   .container_take_a_tip.lingua_inglesa {
     background-color: #cfe188; }
-    .container_take_a_tip.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_take_a_tip.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_take_a_tip.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_take_a_tip.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_take_a_tip.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_take_a_tip.matematica {
     background-color: #f7d079; }
-    .container_take_a_tip.matematica label:before {
-      color: #ffffff; }
+    .container_take_a_tip.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.matematica label:before {
+        color: #ffffff; }
   .container_take_a_tip.linguagens {
     background-color: #cfe188; }
-    .container_take_a_tip.linguagens label:before {
-      color: #ffffff; }
+    .container_take_a_tip.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.linguagens label:before {
+        color: #ffffff; }
   .container_take_a_tip.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_take_a_tip.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_take_a_tip.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_take_a_tip.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_take_a_tip.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_take_a_tip.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_take_a_tip.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_take_a_tip.ciencias_humanas label:before {
+        color: #ffffff; }
   @media only screen and (min-width: 481px) {
     .container_take_a_tip._left {
       float: left;
@@ -8467,28 +8491,52 @@ blockquote {
       color: #C8D300; }
   .container_fica_a_dica_teoria.lingua_inglesa {
     background-color: #cfe188; }
-    .container_fica_a_dica_teoria.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_fica_a_dica_teoria.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_fica_a_dica_teoria.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_fica_a_dica_teoria.matematica {
     background-color: #f7d079; }
-    .container_fica_a_dica_teoria.matematica label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.matematica label:before {
+        color: #ffffff; }
   .container_fica_a_dica_teoria.linguagens {
     background-color: #cfe188; }
-    .container_fica_a_dica_teoria.linguagens label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.linguagens label:before {
+        color: #ffffff; }
   .container_fica_a_dica_teoria.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_fica_a_dica_teoria.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_fica_a_dica_teoria.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_fica_a_dica_teoria.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_fica_a_dica_teoria.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_fica_a_dica_teoria.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_fica_a_dica_teoria.ciencias_humanas label:before {
+        color: #ffffff; }
   @media only screen and (min-width: 481px) {
     .container_fica_a_dica_teoria._left {
       float: left;
@@ -12670,28 +12718,52 @@ blockquote {
       color: #8CCAAE; }
   .container_repertorio_cultural_teoria.lingua_inglesa {
     background-color: #cfe188; }
-    .container_repertorio_cultural_teoria.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_repertorio_cultural_teoria.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.matematica {
     background-color: #f7d079; }
-    .container_repertorio_cultural_teoria.matematica label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.matematica label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.linguagens {
     background-color: #cfe188; }
-    .container_repertorio_cultural_teoria.linguagens label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.linguagens label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_repertorio_cultural_teoria.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_repertorio_cultural_teoria.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_repertorio_cultural_teoria.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_repertorio_cultural_teoria.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_repertorio_cultural_teoria.ciencias_humanas label:before {
+        color: #ffffff; }
   .container_repertorio_cultural_teoria.producao_de_texto {
     background-color: #ECF0A6; }
     .container_repertorio_cultural_teoria.producao_de_texto label:before {
@@ -12778,28 +12850,52 @@ blockquote {
       color: #C8D300; }
   .container_culture_box.lingua_inglesa {
     background-color: #cfe188; }
-    .container_culture_box.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_culture_box.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_culture_box.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_culture_box.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_culture_box.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_culture_box.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_culture_box.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_culture_box.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_culture_box.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_culture_box.matematica {
     background-color: #f7d079; }
-    .container_culture_box.matematica label:before {
-      color: #ffffff; }
+    .container_culture_box.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_culture_box.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_culture_box.matematica label:before {
+        color: #ffffff; }
   .container_culture_box.linguagens {
     background-color: #cfe188; }
-    .container_culture_box.linguagens label:before {
-      color: #ffffff; }
+    .container_culture_box.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_culture_box.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_culture_box.linguagens label:before {
+        color: #ffffff; }
   .container_culture_box.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_culture_box.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_culture_box.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_culture_box.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_culture_box.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_culture_box.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_culture_box.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_culture_box.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_culture_box.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_culture_box.ciencias_humanas label:before {
+        color: #ffffff; }
   @media only screen and (min-width: 481px) {
     .container_culture_box._left {
       float: left;
@@ -12931,7 +13027,7 @@ blockquote {
   .container_saiba_mais_exercicios input[type=checkbox] {
     display: none; }
   .container_saiba_mais_exercicios input[type=checkbox]:checked ~ label {
-    background: url(img/icons8-minus-close_white.png) left 5px top 11px no-repeat; }
+    background: url(img/icons8-minus-close_green.png) left 5px top 11px no-repeat; }
   .container_saiba_mais_exercicios input[type=checkbox]:checked ~ .txt_boxe_collapsed {
     display: block;
     transition: all 0.25s ease-out; }
@@ -12941,7 +13037,7 @@ blockquote {
   .container_saiba_mais_exercicios label {
     width: 100%;
     height: 40px;
-    background: url(img/icons8-plus-open_white.png) left 5px top 11px no-repeat;
+    background: url(img/icons8-plus-open_green.png) left 5px top 11px no-repeat;
     position: relative;
     background-size: 18px !important;
     display: block;
@@ -12992,28 +13088,52 @@ blockquote {
       color: #8CCAAE; }
   .container_saiba_mais_exercicios.lingua_inglesa {
     background-color: #cfe188; }
-    .container_saiba_mais_exercicios.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_saiba_mais_exercicios.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.matematica {
     background-color: #f7d079; }
-    .container_saiba_mais_exercicios.matematica label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.matematica label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.linguagens {
     background-color: #cfe188; }
-    .container_saiba_mais_exercicios.linguagens label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.linguagens label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_saiba_mais_exercicios.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_saiba_mais_exercicios.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_saiba_mais_exercicios.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_saiba_mais_exercicios.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_saiba_mais_exercicios.ciencias_humanas label:before {
+        color: #ffffff; }
   .container_saiba_mais_exercicios.producao_de_texto {
     background-color: #ECF0A6; }
     .container_saiba_mais_exercicios.producao_de_texto label:before {
@@ -13100,28 +13220,52 @@ blockquote {
       color: #C8D300; }
   .container_fast_facts.lingua_inglesa {
     background-color: #cfe188; }
-    .container_fast_facts.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_fast_facts.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_fast_facts.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_fast_facts.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_fast_facts.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_fast_facts.matematica {
     background-color: #f7d079; }
-    .container_fast_facts.matematica label:before {
-      color: #ffffff; }
+    .container_fast_facts.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.matematica label:before {
+        color: #ffffff; }
   .container_fast_facts.linguagens {
     background-color: #cfe188; }
-    .container_fast_facts.linguagens label:before {
-      color: #ffffff; }
+    .container_fast_facts.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.linguagens label:before {
+        color: #ffffff; }
   .container_fast_facts.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_fast_facts.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_fast_facts.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_fast_facts.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_fast_facts.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_fast_facts.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts.ciencias_humanas label:before {
+        color: #ffffff; }
   @media only screen and (min-width: 481px) {
     .container_fast_facts._left {
       float: left;
@@ -13198,28 +13342,52 @@ blockquote {
       color: #C8D300; }
   .container_fast_facts_exercicios.lingua_inglesa {
     background-color: #cfe188; }
-    .container_fast_facts_exercicios.lingua_inglesa label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.lingua_inglesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.lingua_inglesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.lingua_inglesa label:before {
+        color: #ffffff; }
   .container_fast_facts_exercicios.lingua_portuguesa {
     background-color: #cfe188; }
-    .container_fast_facts_exercicios.lingua_portuguesa label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.lingua_portuguesa input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.lingua_portuguesa label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.lingua_portuguesa label:before {
+        color: #ffffff; }
   .container_fast_facts_exercicios.matematica {
     background-color: #f7d079; }
-    .container_fast_facts_exercicios.matematica label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.matematica input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.matematica label {
+      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.matematica label:before {
+        color: #ffffff; }
   .container_fast_facts_exercicios.linguagens {
     background-color: #cfe188; }
-    .container_fast_facts_exercicios.linguagens label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.linguagens input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.linguagens label {
+      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.linguagens label:before {
+        color: #ffffff; }
   .container_fast_facts_exercicios.ciencias_natureza {
     background-color: #fdc78d; }
-    .container_fast_facts_exercicios.ciencias_natureza label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.ciencias_natureza input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.ciencias_natureza label {
+      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.ciencias_natureza label:before {
+        color: #ffffff; }
   .container_fast_facts_exercicios.ciencias_humanas {
     background-color: #b2ddcb; }
-    .container_fast_facts_exercicios.ciencias_humanas label:before {
-      color: #ffffff; }
+    .container_fast_facts_exercicios.ciencias_humanas input[type=checkbox]:checked ~ label {
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+    .container_fast_facts_exercicios.ciencias_humanas label {
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      .container_fast_facts_exercicios.ciencias_humanas label:before {
+        color: #ffffff; }
   @media only screen and (min-width: 481px) {
     .container_fast_facts_exercicios._left {
       float: left;

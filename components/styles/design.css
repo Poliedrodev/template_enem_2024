@@ -14305,9 +14305,9 @@ blockquote {
   .css_01_titulo1.matematica .text {
     color: #033878; }
   .css_01_titulo1.linguagens .line {
-    background-color: #3b227a; }
+    background-color: #b2d234; }
   .css_01_titulo1.linguagens .text {
-    color: #b2d234; }
+    color: #3b227a; }
   .css_01_titulo1.ciencias_natureza .line {
     background-color: #f9a64a; }
   .css_01_titulo1.ciencias_natureza .text {
@@ -14351,6 +14351,12 @@ blockquote {
     color: #c9252c; }
   .css_01_titulo2.matematica {
     color: #1961AC; }
+  .css_01_titulo2.linguagens {
+    color: #3b227a; }
+  .css_01_titulo2.ciencias_natureza {
+    color: #216e30; }
+  .css_01_titulo2.ciencias_humanas {
+    color: #9e270e; }
 
 .css_01_titulo3 {
   display: block;
@@ -14371,6 +14377,12 @@ blockquote {
     color: #c9252c; }
   .css_01_titulo3.matematica {
     color: #1961AC; }
+  .css_01_titulo3.linguagens {
+    color: #3b227a; }
+  .css_01_titulo3.ciencias_natureza {
+    color: #216e30; }
+  .css_01_titulo3.ciencias_humanas {
+    color: #9e270e; }
 
 .css_01_titulo4 {
   display: block;
@@ -17756,23 +17768,23 @@ blockquote {
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.lingua_portuguesa {
-    background-color: #f7dedf;
+    background-color: #f6e4dc;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.matematica {
-    background-color: #d0e1f0;
+    background-color: #e3e7f4;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.linguagens {
-    background-color: #f4f8e8;
+    background-color: #e4e1ee;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.ciencias_natureza {
-    background-color: #fff3e7;
+    background-color: #e4eee3;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.ciencias_humanas {
-    background-color: #eff7f3;
+    background-color: #fae8db;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.edit-mode [doc-container] {
@@ -22736,23 +22748,23 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.lingua_portuguesa {
-    background-color: #f7dedf;
+    background-color: #f6e4dc;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.matematica {
-    background-color: #d0e1f0;
+    background-color: #e3e7f4;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.linguagens {
-    background-color: #f4f8e8;
+    background-color: #e4e1ee;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.ciencias_natureza {
-    background-color: #fff3e7;
+    background-color: #e4eee3;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.ciencias_humanas {
-    background-color: #eff7f3;
+    background-color: #fae8db;
     background-size: cover;
     background-repeat: no-repeat; }
   .body-book.edit-mode [doc-container] {

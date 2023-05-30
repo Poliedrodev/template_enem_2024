@@ -810,6 +810,17 @@
       ]
     },
     {
+      "name": "secao_topo_ciencia_em_acao",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Topo Ciência em Ação",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "secao_creating_and_sharing",
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Creating and Sharing",
@@ -7107,6 +7118,7 @@
         "secao_para_consolidar",
         "secao_topo_para_aprofundar",
         "secao_topo_para_consolidar",
+        "secao_topo_ciencia_em_acao",
         "secao_topo_produzir_e_compartilhar",
         "secao_quiz",
         "secao_topo_quiz",
@@ -7788,15 +7800,6 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "Artes"
-              }
-            },
-            "value": "artes"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "Língua Inglesa"
               }
             },
@@ -8023,15 +8026,6 @@
             "caption": {
               "key": "PROPERTY_STYLE_DEFAULT_OPTION"
             }
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "artes"
-              }
-            },
-            "value": "artes"
           },
           {
             "caption": {

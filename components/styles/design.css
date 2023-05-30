@@ -10898,7 +10898,7 @@ blockquote {
     border: 1px solid #cfe188;
     background-color: #f4f8e8; }
     .box_pensamento.lingua_portuguesa .title {
-      color: #96171a; }
+      color: #c9252c; }
     .box_pensamento.lingua_portuguesa .material-symbols-outlined {
       color: #cfe188; }
   .box_pensamento.matematica {
@@ -14599,7 +14599,7 @@ blockquote {
     padding: 0px 0px 3px 0px; }
   .css_01_titulo1 .text {
     color: #45973D;
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 40px;
     font-variant: tabular-nums;
@@ -14609,7 +14609,7 @@ blockquote {
 .css_01_titulo2 {
   display: block;
   color: #45973D;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 26px;
   font-variant: tabular-nums;
@@ -14622,7 +14622,7 @@ blockquote {
   .css_01_titulo2.lingua_inglesa {
     color: #069891; }
   .css_01_titulo2.lingua_portuguesa {
-    color: #c9252c; }
+    color: #a1ac00; }
   .css_01_titulo2.matematica {
     color: #1961AC; }
   .css_01_titulo2.linguagens {
@@ -14635,7 +14635,7 @@ blockquote {
 .css_01_titulo3 {
   display: block;
   color: #45973D;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 24px;
   font-variant: tabular-nums;
@@ -14661,7 +14661,7 @@ blockquote {
 .css_01_titulo4 {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-variant: tabular-nums;
   font-size: 20px;
@@ -14707,7 +14707,7 @@ blockquote {
 .css_02_texto_geral1 {
   display: block;
   color: #000000;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -14718,7 +14718,7 @@ blockquote {
   text-align: center;
   font-size: 18px;
   color: #000000;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.5em;
   margin: 24px 0px 0px 0px;
@@ -14729,7 +14729,7 @@ blockquote {
 .css_02_texto_geral3 {
   display: block;
   color: #000000;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -14738,7 +14738,7 @@ blockquote {
 .css_02_texto_geral4 {
   display: block;
   color: #000000;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -14748,14 +14748,14 @@ blockquote {
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5em; }
   .css_02_texto_bullet ul {
     padding-inline-start: 24px; }
   .css_02_texto_bullet ul li {
     font-size: 18px;
-    font-family: 'Noticia Text';
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin: 0px;
     line-height: 1.5em;
@@ -15365,7 +15365,7 @@ blockquote {
 
 .css_03_exercicio_enunciado {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", "arial", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15374,7 +15374,7 @@ blockquote {
 
 .css_03_exercicio_texto {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15403,7 +15403,7 @@ blockquote {
 
 .css_03_exercicio_resolvido_item {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15412,7 +15412,7 @@ blockquote {
 
 .css_03_exercicio_item {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15421,7 +15421,7 @@ blockquote {
 
 .css_03_exercicio_item_2 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15430,7 +15430,7 @@ blockquote {
 
 .css_03_exercicio_item_alinhamento_1 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15486,7 +15486,7 @@ blockquote {
 
 .css_03_exercicio_item_romano {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15495,7 +15495,7 @@ blockquote {
 
 .css_03_exercicio_item_vf {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15507,7 +15507,7 @@ blockquote {
 
 .css_03_exercicio_item_vf_citado {
   display: block;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15516,7 +15516,7 @@ blockquote {
 
 .css_03_exercicio_item_vf_2 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -15588,7 +15588,7 @@ blockquote {
   display: block;
   font-size: 9.8px;
   color: #707070;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
   padding: 0 0px; }
@@ -15597,7 +15597,7 @@ blockquote {
   display: block;
   font-size: 9.8px;
   color: #707070;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
   padding: 0 0px; }
@@ -15606,7 +15606,7 @@ blockquote {
   display: block;
   font-size: 9.8px;
   color: #707070;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
   padding: 0 0px; }
@@ -15614,7 +15614,7 @@ blockquote {
 .css_05_legenda {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -15696,7 +15696,7 @@ blockquote {
 .css_05_legenda_mancha {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -15778,7 +15778,7 @@ blockquote {
 .css_05_legenda_cont_exercicios {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -15860,7 +15860,7 @@ blockquote {
 .css_05_legenda_teoria {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -15942,7 +15942,7 @@ blockquote {
 .css_05_legenda_saiba_mais {
   display: block;
   color: #62883b;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -16024,7 +16024,7 @@ blockquote {
 .css_05_legenda_exercicio {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -16106,7 +16106,7 @@ blockquote {
 .css_05_legenda_sem_margem {
   display: block;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -16189,7 +16189,7 @@ blockquote {
   display: block;
   font-size: 16px;
   color: #000000;
-  font-family: "Proxima Nova Lt" !important;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0px; }
 
 .css_05_nota_rodape {
@@ -16253,7 +16253,7 @@ blockquote {
   text-align: right;
   font-size: 14px;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px; }
@@ -16263,7 +16263,7 @@ blockquote {
   text-align: right;
   font-size: 14px;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0px; }
 
@@ -16422,7 +16422,7 @@ blockquote {
   display: block;
   text-align: left;
   font-size: 26px;
-  font-family: "Prelo ExtraBold";
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
   color: #242717; }
   .css_06_boxe_titulo2.artes {
@@ -16485,7 +16485,7 @@ blockquote {
   display: block;
   font-size: 16px;
   color: #242717;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-top: 16px;
   line-height: 1.5em; }
@@ -16509,7 +16509,7 @@ blockquote {
   text-align: left;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "700";
+  font-family: "montserrat bold", "700";
   line-height: 1.5em;
   margin: 16px 0px 0px 0px; }
 
@@ -16518,7 +16518,7 @@ blockquote {
   text-align: left;
   font-size: 18px;
   color: #000000;
-  font-family: "noticia text", "700";
+  font-family: "montserrat bold", "700";
   line-height: 1.5em;
   margin: 12px 0px 0px 0px; }
 
@@ -16612,7 +16612,7 @@ blockquote {
   text-align: center;
   font-size: 18px;
   color: #505050;
-  font-family: "noticia text", "700";
+  font-family: "Montserrat", sans-serif;
   margin: 24px 0px 0px 0px;
   padding: 24px;
   line-height: 1.5em;
@@ -20446,7 +20446,7 @@ label img {
   display: block;
   text-align: center;
   font-size: 20px;
-  font-family: "TheSerif-HP6SeBld" !important;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
   margin: 24px 0px 0px 0px;
   padding: 0 19px; }
@@ -20455,7 +20455,7 @@ label img {
   display: block;
   text-align: center;
   font-size: 20px;
-  font-family: "TheSerif-HP6SeBld" !important;
+  font-family: "Montserrat", sans-serif;
   color: #62883b;
   margin: 24px 0px 0px 0px;
   padding: 0 19px; }
@@ -20464,7 +20464,7 @@ label img {
   display: block;
   font-size: 20px;
   color: #000000;
-  font-family: 'Montserrat';
+  font-family: "noticia text", "400";
   font-weight: 400;
   margin-top: 16px;
   padding: 0px; }
@@ -20473,7 +20473,7 @@ label img {
   display: block;
   font-size: 0.9rem;
   color: #242717 !important;
-  font-family: 'Montserrat';
+  font-family: "noticia text", "400";
   font-weight: 400;
   margin-top: 16px;
   padding: 0 0px; }
@@ -20496,6 +20496,7 @@ label img {
   display: block;
   font-size: 16px;
   color: #62883b;
+  font-family: "Montserrat", sans-serif;
   margin: 16px 0px 10px 0px;
   padding: 0px; }
 
@@ -20685,7 +20686,7 @@ label img {
 
 .css_07_secao_exercicio1 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -20694,7 +20695,7 @@ label img {
 
 .css_07_secao_exercicio2 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -20703,7 +20704,7 @@ label img {
 
 .css_07_secao_exercicio3 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -20712,7 +20713,7 @@ label img {
 
 .css_07_secao_exercicio4 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -20721,7 +20722,7 @@ label img {
 
 .css_07_secao_exercicio_item {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -20730,7 +20731,7 @@ label img {
 
 .css_07_secao_exercicio_item_container {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -21479,7 +21480,7 @@ label img {
 
 .css_07_secao_exercicio_bullet {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -21490,7 +21491,7 @@ label img {
 
 .css_07_secao_exercicio_bullet_2 {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -21501,7 +21502,7 @@ label img {
 
 .css_07_secao_exercicio_bullet_sub {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -21512,7 +21513,7 @@ label img {
 
 .css_07_secao_exercicio_alternativa {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -21521,7 +21522,7 @@ label img {
 
 .css_07_secao_exercicio_continuacao {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -24108,29 +24109,29 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .css_03_2exercicio_container_edit.lingua_inglesa .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.lingua_inglesa .background_number .number_exercicio {
-      color: #069891; }
+      color: #000000; }
   .css_03_2exercicio_container_edit.lingua_inglesa .btn_alin2 .btn_salvar2::after {
     content: "Save"; }
   .css_03_2exercicio_container_edit.lingua_portuguesa .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.lingua_portuguesa .background_number .number_exercicio {
-      color: #96171a; }
+      color: #000000; }
   .css_03_2exercicio_container_edit.matematica .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.matematica .background_number .number_exercicio {
-      color: #033878; }
+      color: #000000; }
   .css_03_2exercicio_container_edit.linguagens .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.linguagens .background_number .number_exercicio {
-      color: #b2d234; }
+      color: #000000; }
   .css_03_2exercicio_container_edit.ciencias_natureza .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.ciencias_natureza .background_number .number_exercicio {
-      color: #216e30; }
+      color: #000000; }
   .css_03_2exercicio_container_edit.ciencias_humanas .background_number {
     font-weight: 700; }
     .css_03_2exercicio_container_edit.ciencias_humanas .background_number .number_exercicio {
-      color: #9e270e; }
+      color: #000000; }
   .css_03_2exercicio_container_edit .btn2 {
     background-image: url(img/save.png);
     background-repeat: no-repeat;

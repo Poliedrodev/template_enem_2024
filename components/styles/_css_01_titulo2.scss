@@ -1,7 +1,7 @@
 .css_01_titulo2 {
   display: block;
   color: $title-color;
-  font-family: 'Montserrat';
+  font-family: $font-montserrat;
   font-weight: 800;
   font-size: 26px;
   font-variant: tabular-nums;
@@ -19,7 +19,7 @@
   }
 
   &.lingua_portuguesa {
-    color: $por_cor1;
+    color: $seg_por_cor3;
   }
 
   &.matematica {

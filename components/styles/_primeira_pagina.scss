@@ -3,7 +3,7 @@
   margin: 16px 0px 16px;
   clear: both;
   display: block;
-  float:left;
+  float:right;
   &::after {
       content: '';
       display: block;
@@ -12,19 +12,19 @@
 
   &.leftDe{
     float: left;
+
+    .text-read2{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-left: none;
+        border-right: 1px solid #dddddd;
+    }
   }
 
   &.rightDe{
     float: right;
-
-    .text-read2{
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-right: none;
-        border-left: 1px solid #dddddd;
-    }
 
   }
 
@@ -37,10 +37,10 @@
     font-family: montserrat;
     font-weight: 700;
     background-color: #f4f4f4;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     border-top: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
   }
   > * {

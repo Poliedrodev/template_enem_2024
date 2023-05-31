@@ -13363,49 +13363,49 @@ blockquote {
   .container_saiba_mais_exercicios.lingua_inglesa {
     background-color: #cfe188; }
     .container_saiba_mais_exercicios.lingua_inglesa input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_green.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.lingua_inglesa label {
-      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_green.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.lingua_inglesa label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.lingua_portuguesa {
     background-color: #cfe188; }
     .container_saiba_mais_exercicios.lingua_portuguesa input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_green.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.lingua_portuguesa label {
-      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_green.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.lingua_portuguesa label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.matematica {
     background-color: #f7d079; }
     .container_saiba_mais_exercicios.matematica input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_orange.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_orange.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.matematica label {
-      background: url(img/icons8-plus-open_orange.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_orange.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.matematica label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.linguagens {
     background-color: #cfe188; }
     .container_saiba_mais_exercicios.linguagens input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_green.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.linguagens label {
-      background: url(img/icons8-plus-open_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_green.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.linguagens label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.ciencias_natureza {
     background-color: #fdc78d; }
     .container_saiba_mais_exercicios.ciencias_natureza input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_brown.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_brown.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.ciencias_natureza label {
-      background: url(img/icons8-plus-open_brown.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_brown.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.ciencias_natureza label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.ciencias_humanas {
     background-color: #b2ddcb; }
     .container_saiba_mais_exercicios.ciencias_humanas input[type=checkbox]:checked ~ label {
-      background: url(img/icons8-minus-close_dark_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-minus-close_dark_green.png) left 5px top 11px no-repeat; }
     .container_saiba_mais_exercicios.ciencias_humanas label {
-      background: url(img/icons8-plus-open_dark_green.png) left 5px top 9px no-repeat; }
+      background: url(img/icons8-plus-open_dark_green.png) left 5px top 11px no-repeat; }
       .container_saiba_mais_exercicios.ciencias_humanas label:before {
         color: #ffffff; }
   .container_saiba_mais_exercicios.producao_de_texto {
@@ -15392,7 +15392,7 @@ blockquote {
 
 .css_03_exercicio_resolvido_bullet {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15439,7 +15439,7 @@ blockquote {
 
 .css_03_exercicio_bullet {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15454,7 +15454,7 @@ blockquote {
 
 .css_03_exercicio_bullet_sub {
   display: block;
-  font-family: 'Noticia Text';
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -15544,14 +15544,14 @@ blockquote {
 
 .css_04_professor_resposta {
   display: block;
-  font-family: "Pt Sans";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #f5006b;
   margin: 16px 0px 0px 0px; }
 
 .css_04_professor_comentario {
   display: block;
-  font-family: "TheSerif-HP2ExLig";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #f5006b;
   margin: 16px 0px 0px 0px; }
@@ -20669,7 +20669,7 @@ label img {
   display: block; }
 
 .css_07_secao_texto_citado {
-  font-family: 'Montserrat';
+  font-family: "noticia text", "400";
   font-size: 16px;
   color: #000;
   display: block;
@@ -20677,7 +20677,7 @@ label img {
   padding: 0 0px; }
 
 .css_07_secao_texto_citado_2 {
-  font-family: 'Montserrat';
+  font-family: "noticia text", "400";
   font-size: 16px;
   color: #000;
   display: block;

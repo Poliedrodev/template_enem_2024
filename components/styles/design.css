@@ -14589,7 +14589,7 @@ blockquote {
   .css_01_titulo1.ciencias_humanas .line {
     background-color: #7fcaad; }
   .css_01_titulo1.ciencias_humanas .text {
-    color: #9e270e; }
+    color: #db5c1e; }
   .css_01_titulo1 .line {
     width: 215px;
     background-color: black;
@@ -14630,7 +14630,7 @@ blockquote {
   .css_01_titulo2.ciencias_natureza {
     color: #216e30; }
   .css_01_titulo2.ciencias_humanas {
-    color: #9e270e; }
+    color: #7fcaad; }
 
 .css_01_titulo3 {
   display: block;
@@ -14656,7 +14656,7 @@ blockquote {
   .css_01_titulo3.ciencias_natureza {
     color: #216e30; }
   .css_01_titulo3.ciencias_humanas {
-    color: #9e270e; }
+    color: #db5c1e; }
 
 .css_01_titulo4 {
   display: block;
@@ -16336,7 +16336,7 @@ blockquote {
   .css_05_mapa_titulo.ciencias_natureza {
     color: #f9a64a !important; }
   .css_05_mapa_titulo.ciencias_humanas {
-    color: #9e270e !important; }
+    color: #db5c1e !important; }
   @media only screen and (min-width: 481px) {
     .css_05_mapa_titulo {
       /* class styles for the position properties of the image component */ }
@@ -16448,7 +16448,7 @@ blockquote {
   .css_06_boxe_titulo2.ciencias_natureza {
     color: #b76e11 !important; }
   .css_06_boxe_titulo2.ciencias_humanas {
-    color: #94a924 !important; }
+    color: #2c9476 !important; }
 
 .css_06_boxe_titulo3 {
   display: block;

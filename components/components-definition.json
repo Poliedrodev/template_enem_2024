@@ -1770,7 +1770,7 @@
       ]
     },    
     {
-      "name": "marcador_pagina",
+      "name": "css_00_marcador_pagina",
       "icon": "icons/components/container.svg",
       "label": "Macador de Página",
       "properties": [
@@ -7139,7 +7139,7 @@
         "container_questao_total",
         "quebra_pagina",
         "primeira_pagina",
-        "marcador_pagina",
+        "css_00_marcador_pagina",
         "container_connections",
         "container_construcao",
         "container_em_analise",

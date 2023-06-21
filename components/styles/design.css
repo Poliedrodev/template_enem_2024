@@ -10293,7 +10293,7 @@ blockquote {
     justify-content: space-around;
     font-size: 10px;
     color: #000000;
-    min-width: 150px;
+    min-width: 120px;
     text-align: center;
     padding: 5px;
     font-family: montserrat;
@@ -10304,6 +10304,8 @@ blockquote {
     border-top: 1px solid #dddddd;
     border-left: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd; }
+    .primeira_pagina .text-read2 .sep {
+      font-size: 9px; }
   .primeira_pagina.lingua_inglesa .text-read2 {
     background-color: #ffffff;
     color: #069891;

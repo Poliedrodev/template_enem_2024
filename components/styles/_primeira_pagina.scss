@@ -13,7 +13,7 @@
     &.leftDe{
       float: left;
   
-      .text-read2{
+      .textReadFP{
           border-top-left-radius: 0px;
           border-bottom-left-radius: 0px;
           border-top-right-radius: 8px;
@@ -28,7 +28,7 @@
   
     }
   
-    .text-read2{
+    .textReadFP{
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -55,7 +55,7 @@
     
   
     &.lingua_inglesa {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $ing_cor1; 
@@ -64,7 +64,7 @@
        border-bottom: 2px solid $ing_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;
@@ -75,7 +75,7 @@
       }
   }
   &.lingua_portuguesa {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $por_cor1; 
@@ -84,7 +84,7 @@
        border-bottom: 2px solid $por_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;
@@ -95,7 +95,7 @@
       }
   }
   &.matematica {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $mat_cor1; 
@@ -104,7 +104,7 @@
        border-bottom: 2px solid $mat_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;
@@ -115,7 +115,7 @@
       }
   }
   &.linguagens {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $ling_cor1; 
@@ -124,7 +124,7 @@
        border-bottom: 2px solid $ling_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;
@@ -135,7 +135,7 @@
       }
   }
   &.ciencias_natureza {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $cnz_cor1; 
@@ -144,7 +144,7 @@
        border-bottom: 2px solid $cnz_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;
@@ -155,7 +155,7 @@
       }
   }
   &.ciencias_humanas {
-      .text-read2
+      .textReadFP
       {
        background-color: $teoria;
        color: $cnh_cor1; 
@@ -164,7 +164,7 @@
        border-bottom: 2px solid $cnh_cor1;
       }
       &.leftDe{
-          .text-read2{
+          .textReadFP{
               border-top-right-radius: 8px;
               border-bottom-right-radius: 8px;
               border-top-left-radius: 0px;

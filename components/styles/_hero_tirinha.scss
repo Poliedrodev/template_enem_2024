@@ -1,12 +1,12 @@
 /* Image component style */
 .hero_tirinha {
     clear: both;
-    margin-left: -50vw;
     object-fit: cover;
-    width: 150vw;
     height: 350px;
     overflow: hidden;
     position: relative;
+    width: 100%;
+    margin: 0 auto;
 
     &.full-screen {
         position: relative !important;

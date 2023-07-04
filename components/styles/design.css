@@ -1219,7 +1219,7 @@ span[style="text-decoration: line-through;"] {
   .image_lumen_mais.ciencias_natureza .slider-subtitle::before {
     background-color: #216e30; }
   .image_lumen_mais.ciencias_humanas .slider-subtitle::before {
-    background-color: #9e270e; }
+    background-color: #db5c1e; }
   .image_lumen_mais._left {
     margin-left: 0px; }
   .image_lumen_mais._right {
@@ -2013,12 +2013,12 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .hero_tirinha {
   clear: both;
-  margin-left: -50vw;
   object-fit: cover;
-  width: 150vw;
   height: 350px;
   overflow: hidden;
   position: relative;
+  width: 100%;
+  margin: 0 auto;
   /* class styles for the captions properties of the image component */ }
   .hero_tirinha.full-screen {
     position: relative !important;
@@ -14871,7 +14871,7 @@ blockquote {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 15px 0px 0px 0px; }
 
 .css_02_texto_geral2 {
@@ -15096,7 +15096,7 @@ blockquote {
 
 .css_02_texto_citado {
   display: block;
-  font-size: 16px;
+  font-size: 1.125rem;
   color: #000000;
   font-family: "noticia text", "400";
   font-weight: 400;
@@ -15221,7 +15221,7 @@ blockquote {
   .css_02_texto_glossario.ciencias_natureza {
     border: solid 2px #216e30 !important; }
   .css_02_texto_glossario.ciencias_humanas {
-    border: solid 2px #9e270e !important; }
+    border: solid 2px #db5c1e !important; }
 
 .css_02_texto_glossario_boxe {
   font-family: 'Noticia Text';
@@ -20632,7 +20632,7 @@ label img {
 
 .css_06_boxe_texto_citado_saiba_mais {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1.125rem;
   color: #242717 !important;
   font-family: "noticia text", "400";
   font-weight: 400;

@@ -2,7 +2,7 @@
 .hero_tirinha {
     clear: both;
     object-fit: cover;
-    height: 350px;
+    max-height: 350px;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -29,6 +29,7 @@
         height: 500px;
         background-size: cover;
         background-position: center center;
+        background-repeat: no-repeat;
         > a {
             display: block;
             position: absolute;

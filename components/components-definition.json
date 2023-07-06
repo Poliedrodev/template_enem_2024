@@ -2115,7 +2115,7 @@
     {
       "name": "container_textos_exercicio_mancha",
       "icon": "icons/components/container.svg",
-      "label": "Container Textos Exercícios",
+      "label": "Container Textos Exercícios Mancha",
       "properties": [
         "style",
         "text-align",
@@ -7099,7 +7099,6 @@
         "container_saiba_mais_exercicios",
         "container_textos",
         "container_textos_item",
-        "container_textos_exercicios",
         "container_textos_exercicios",
         "container_textos_exercicio_mancha",
         "container_textos_fundo_sepia",

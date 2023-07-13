@@ -1187,10 +1187,14 @@ span[style="text-decoration: line-through;"] {
   clear: both;
   display: flex;
   flex-direction: column;
-  width: 100%;
   /* class styles for the captions properties of the image component */ }
   .image_lumen_mais ._image {
     width: 100%; }
+  .image_lumen_mais .descricaoImg {
+    color: #2a6fd6 !important;
+    font-weight: bold;
+    font-size: 12px;
+    display: block; }
   .image_lumen_mais._fit_content ._image {
     width: fit-content; }
   .image_lumen_mais._fit_content_margin_auto ._image {
@@ -1219,7 +1223,7 @@ span[style="text-decoration: line-through;"] {
   .image_lumen_mais.ciencias_natureza .slider-subtitle::before {
     background-color: #216e30; }
   .image_lumen_mais.ciencias_humanas .slider-subtitle::before {
-    background-color: #db5c1e; }
+    background-color: #9e270e; }
   .image_lumen_mais._left {
     margin-left: 0px; }
   .image_lumen_mais._right {

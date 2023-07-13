@@ -5,10 +5,17 @@
   clear: both;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  // width: 100%;
 
   ._image{
     width: 100%;
+  }
+
+  .descricaoImg {
+    color: rgb(42, 111, 214)!important;
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
   }
 
   &._fit_content ._image{
@@ -75,7 +82,7 @@
 
   &.ciencias_humanas {
     .slider-subtitle::before {
-      background-color: $cnh_cor1;
+      background-color: $cnh_cor2;
     }
   }
 
